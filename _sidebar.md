@@ -12,8 +12,8 @@
   * [VMware安装centos8.5](VMware/centos.md)
   * [VMware安装Ubuntu22.04.1](VMware/Ubuntu.md)
   * [VMware安装macOS Ventura 13](VMware/Ventura13.md)
-  * [VMware安装Kali](VMware/kali.md)
   * [VMware安装Red Hat](<VMware/red hat.md>)
+  * [Ubuntu安装PowerVim](Vmware/PowerVim.md)
 
 * 操作系统算法
   * [银行家算法](algorithm/banker.md)
