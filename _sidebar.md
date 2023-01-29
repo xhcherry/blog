@@ -30,7 +30,8 @@
   * [机房预约系统](CPP/七/机房预约系统.md)
   * [查看单个类的布局](CPP/single.md)
   * [实参与形参](CPP/shican.md)
-  
+* git相关操作
+  * [GitHub进行fork后与原仓库同步](git/upstream.md)   
 * [windows配置docsify](qita/docsify.md)
   * [托管GitHub](qita/docsify1.md)
   * [linux服务器](qita/docsify2.md)
