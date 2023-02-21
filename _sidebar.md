@@ -1,6 +1,6 @@
 <div align="center">
 <a href="https://wiki.xhcheats.cn/#/">
-<img src=xh1.jpg />
+<img src=favicon.ico />
 </div>
 
 * [Wiki主页](README.md)
