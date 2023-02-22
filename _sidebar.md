@@ -30,6 +30,14 @@
     * [基于STL的演讲比赛流程管理系统](CPP/六/演讲比赛.md)
     * [机房预约系统](CPP/七/机房预约系统.md)
   * C++ Primer
+    * [第一章](CPP/Primer/第1章.md)
+    * [第二章](CPP/Primer/第2章.md)
+    * [第三章](CPP/Primer/第3章.md)
+    * [第四章](CPP/Primer/第4章.md)
+    * [第五章](CPP/Primer/第5章.md)
+    * [第六章](CPP/Primer/第6章.md)
+    * [第七章](CPP/Primer/第7章.md)
+    * [第八章](CPP/Primer/第8章.md)
   * [查看单个类的布局](CPP/single.md)
   * [实参与形参](CPP/shican.md)
 * git相关操作
