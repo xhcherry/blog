@@ -33,9 +33,6 @@
     * [第十四章](CPP/Primer/第14章.md)
     * [第十五章](CPP/Primer/第15章.md)
     * [第十六章](CPP/Primer/第16章.md)
-    * [第十七章](CPP/Primer/第17章.md)
-    * [第十八章](CPP/Primer/第18章.md)
-    * [第十九章](CPP/Primer/第19章.md)
   * C++ 随笔
     * [查看单个类的布局](CPP/随笔/single.md)
     * [实参与形参](CPP/随笔/shican.md)
