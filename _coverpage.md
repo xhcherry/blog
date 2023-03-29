@@ -1,7 +1,7 @@
 ![](xh1.jpg)
 
-# [**XH教程网**](?id=XH教程网)
+# [**Xherry WIKI**](?id=Xherry WIKI)
 
-**轻量简单,核心皆有,精致专业的个人文档**
+**轻量、易用、功能丰富、精致专业的个人文档**
 
   [Let Go](/README.md)
