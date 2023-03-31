@@ -22,7 +22,7 @@
 
 <figure><img src="../.gitbook/assets/M]{{GF5PAIO1Q{WT)HBMEJD.jpg" alt=""><figcaption></figcaption></figure>
 
-输入下图的框框中   ZF3R0-FHED2-M80TY-8QYGC-NPKYF
+输入下图的框框中   JU090-6039P-08409-8J0QH-2YR7F  这个密钥是VMware pro 17版本，其他版本的VMware直接百度也一样
 
 <figure><img src="../.gitbook/assets/JCX54$40T3AD52PGL%ZK3ZV.jpg" alt=""><figcaption></figcaption></figure>
 
