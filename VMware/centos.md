@@ -8,7 +8,7 @@
 
 打开VMware，如果你没有安装VMware就访问下方内容下载安装
 
-> [VMware安装教程](/qita/VMware.md)
+> [VMware安装教程](/VMware/VMware.md)
 
 <figure><img src="../.gitbook/assets/[}3CU$&#x60;4~CC&#x60;RTD{XSM9Y)H.png" alt=""><figcaption></figcaption></figure>
 
