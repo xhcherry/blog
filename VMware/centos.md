@@ -1,57 +1,128 @@
-# VMware安装centos8.5
+# VMware安装centos 7
 
-镜像下载地址[https://mirrors.aliyun.com/centos/8/isos/x86\_64/](https://mirrors.aliyun.com/centos/8/isos/x86\_64/)
+镜像下载链接[http://ftp.sjtu.edu.cn/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-DVD-2207-02.iso](http://ftp.sjtu.edu.cn/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-DVD-2207-02.iso)
 
-本文使用的版本是CentOS-8.5.2111-x86\_64-dvd1.iso
-
-<figure><img src="../.gitbook/assets/I)T7]9UQF&#x60;3J2K$5_49[IQG.png" alt=""><figcaption></figcaption></figure>
+本文使用的版本是CentOS-7-x86_64-DVD-2207-02.iso
 
 打开VMware，如果你没有安装VMware就访问下方内容下载安装
 
 > [VMware安装教程](/VMware/VMware.md)
 
-<figure><img src="../.gitbook/assets/[}3CU$&#x60;4~CC&#x60;RTD{XSM9Y)H.png" alt=""><figcaption></figcaption></figure>
+点击创建新的虚拟机
 
-下面的教程中只要完成了图片中的内容后点击下一步就行
+![](../image/centos7/204240.png)
 
-<figure><img src="../.gitbook/assets/&#x60;&#x60;WK}H0LQR%]VS{B3)$9CGM.png" alt=""><figcaption></figcaption></figure>
+选择典型，然后下一步
 
-<figure><img src="../.gitbook/assets/_@RG&#x60;RY2_X@M_WQWK6KDCWR.png" alt=""><figcaption></figcaption></figure>
+![](../image/centos7/204415.png)
 
-<figure><img src="../.gitbook/assets/I~LAGWXPNBQG9UGE~CFI_YX.png" alt=""><figcaption></figcaption></figure>
+在安装程序光盘映像文件中选择浏览，并选择下载好的.iso文件，然后下一步
 
-<figure><img src="../.gitbook/assets/80[B_JZ~[N%7ZGIO5LPC336.png" alt=""><figcaption></figcaption></figure>
+![](../image/centos7/204437.png)
 
-<figure><img src="../.gitbook/assets/2GR~2JTLEEK1JL&#x60;5)A8QA65.png" alt=""><figcaption></figcaption></figure>
+为虚拟机填名称以及它的保存路径，然后下一步
 
-<figure><img src="../.gitbook/assets/D55HZERW6F{E)X@1ELJ]$3Q.png" alt=""><figcaption></figcaption></figure>
+![](../image/centos7/204506.png)
 
-<figure><img src="../.gitbook/assets/1Q)2_O$2T5@YX{WP0K%X(9R.png" alt=""><figcaption></figcaption></figure>
+选择磁盘大小并且选择存为单个文件后下一步
 
-这里等很久很久之后会进入下面界面
+![](../image/centos7/204518.png)
 
-<figure><img src="../.gitbook/assets/[3J{YSOS_BF%3U]0B{{(52L.png" alt=""><figcaption></figcaption></figure>
+点击完成即可（如果想要给虚拟机更多的核心或者内存在自定义硬件中课直接修改）
 
-<figure><img src="../.gitbook/assets/Q1PG7EN~@UTUU~ZE2RBQPHF.png" alt=""><figcaption></figcaption></figure>
+![](../image/centos7/204532.png)
 
-这里等很久很久之后会重启就一直等着就行，最后会进入下图桌面
+使用方向键选择install centos 7
 
-<figure><img src="../.gitbook/assets/42Q)ZA4{&#x60;U]CFT8K77~OTPY.png" alt=""><figcaption></figcaption></figure>
+![](../image/centos7/204553.png)
 
-<figure><img src="../.gitbook/assets/[4F]UC)WQM3U7JSAIOO)M)Q.png" alt=""><figcaption></figcaption></figure>
+等待下图走完
 
-<figure><img src="../.gitbook/assets/5_X7E@6IZ8M~LE53XENZSIQ.png" alt=""><figcaption></figcaption></figure>
+![](../image/centos7/204614.png)
 
-<figure><img src="../.gitbook/assets/%C5H9RE$P)8K_ZLV(N8A3YS.png" alt=""><figcaption></figcaption></figure>
+在下图中选择中国然后继续
 
-<figure><img src="../.gitbook/assets/IQU&#x60;L&#x60;1O[D&#x60;3)5J@3)3M(40.png" alt=""><figcaption></figcaption></figure>
+![](../image/centos7/204743.png)
 
-<figure><img src="../.gitbook/assets/1GXB09OD$HML&#x60;J9RF)U1]2B.png" alt=""><figcaption></figcaption></figure>
+下图中选择软件安装
 
-点击上图logout后会让重新登录，输入密码登录即可
+![](../image/centos7/204826.png)
 
-<figure><img src="../.gitbook/assets/38)$@%3GN&#x60;FK$710A(G__N2.png" alt=""><figcaption></figcaption></figure>
+选择GNOME桌面然后点击左上角完成
 
-下图即为安装成功，直接用就行了，网络都是默认配好的，直接就能用
+![](../image/centos7/204827.png)
 
-<figure><img src="../.gitbook/assets/D@B[NHNT@D@T3FJW}_H1EXI (1).png" alt=""><figcaption></figcaption></figure>
+点击下图安装位置
+
+![](../image/centos7/204828.png)
+
+选中20G的硬盘后左上角点击完成
+
+![](../image/centos7/204829.png)
+
+点击下图右下角的开始安装
+
+![](../image/centos7/204830.png)
+
+下图点击root密码
+
+![](../image/centos7/204939.png)
+
+设置密码，若设置的密码例如123456就需要点击两次左上角的完成
+
+![](../image/centos7/204954.png)
+
+点击下图的创建用户
+
+![](../image/centos7/204955.png)
+
+设置用户信息，密码若例如123456需要点击两次完成按钮
+
+![](../image/centos7/204956.png)
+
+等待安装完成
+
+![](../image/centos7/205200.png)
+
+完成后点击下图右下角重启
+
+![](../image/centos7/205550.png)
+
+等待重启,如下图点击LICENSE INFORMATION
+
+![](../image/centos7/213327.png)
+
+同意许可证后点击完成
+
+![](../image/centos7/213334.png)
+
+点击网络和主机名
+
+![](../image/centos7/213356.png)
+
+将右边的以太网打开后点击左上角完成
+
+![](../image/centos7/213408.png)
+
+点击右下角完成配置
+
+![](../image/centos7/213418.png)
+
+点击用户登录
+
+![](../image/centos7/213510.png)
+
+输入密码后登录
+
+![](../image/centos7/213518.png)
+
+下面就一直下一步就行了
+
+![](../image/centos7/213557.png)
+![](../image/centos7/213614.png)
+![](../image/centos7/213623.png)
+![](../image/centos7/213629.png)
+
+点击开始使用后即完成
+
+![](../image/centos7/213634.png)

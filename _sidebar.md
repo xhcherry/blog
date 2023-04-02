@@ -63,7 +63,7 @@
 
 * VMware
   * [windows安装VMware16pro](VMware/VMware.md)
-  * [VMware安装centos8.5](VMware/centos.md)
+  * [VMware安装centos 7](VMware/centos.md)
   * [VMware安装Ubuntu22.04.1](VMware/Ubuntu.md)
   * [VMware安装macOS Ventura 13](VMware/Ventura13.md)
   * [VMware安装Red Hat](<VMware/red hat.md>)
