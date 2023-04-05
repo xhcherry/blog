@@ -47,7 +47,7 @@
   * [进程状态转换](Linuxnetwork/进程状态转换.md)
   * [进程创建](Linuxnetwork/进程创建.md)
   * [exec函数族](Linuxnetwork/exec函数族.md)
-  * [进程退出、孤儿进程、僵尸进程](Linuxnetwork/进程退出、孤儿进程、僵尸进程.md)
+  * [进程退出、孤儿进程、僵尸进程](Linuxnetwork/进程退出孤儿僵尸进程.md)
   * [信号](Linuxnetwork/信号.md)
   * [共享内存](Linuxnetwork/共享内存.md)
   * [守护进程](Linuxnetwork/守护进程.md)
