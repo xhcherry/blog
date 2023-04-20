@@ -57,6 +57,20 @@
   * [IO多路复用](Linuxnetwork/IO多路复用.md)
   * [IO多路复用图解](Linuxnetwork/IO多路复用图解.md)
   * [UDP通信、本地套接字](Linuxnetwork/UDP通信、本地套接字.md)
+
+* 数据结构与算法
+  * [十大排序]
+  * [图论算法]
+  * [红黑树]
+  * [并查集]
+  * [二叉查找树]
+  * [二分查找]
+  * 操作系统算法
+    * [银行家算法](algorithm/banker.md)
+    * [页面置换算法](algorithm/pagedisplace.md)
+    * [磁盘调度算法](algorithm/Disk_scheduling.md)
+
+
 * git相关操作
   * [GitHub进行fork后与原仓库同步](git/upstream.md)
   * [私有库开启GitHub pages](wiki/githubaction.md)
@@ -69,10 +83,7 @@
   * [VMware安装Red Hat](<VMware/red hat.md>)
   * [Ubuntu安装PowerVim](Vmware/PowerVim.md)
 
-* 操作系统算法
-  * [银行家算法](algorithm/banker.md)
-  * [页面置换算法](algorithm/pagedisplace.md)
-  * [磁盘调度算法](algorithm/Disk_scheduling.md)
+
 
 * [windows配置docsify](qita/docsify.md)
   * [托管GitHub](qita/docsify1.md)
