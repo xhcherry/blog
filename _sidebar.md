@@ -60,15 +60,15 @@
 
 * 数据结构与算法
   * [十大排序](topics/十大排序.md)
-  * [图论算法](topics/图论算法.md)
-  * [红黑树](topics/红黑树.md)
-  * [并查集](topics/并查集.md)
-  * [二叉查找树](topics/二叉查找树.md)
   * [二分查找](topics/二分查找.md)
-  * [树状数组](topics/树状数组.md)
-  * [线段树](topics/线段树.md)
+  * [并查集](topics/并查集.md)
+  * [图论算法](topics/图论算法.md)
+  * [二叉查找树](topics/二叉查找树.md)
   * [AVL数](topics/AVL树.md)
   * [splay树](topics/splay树.md)
+  * [红黑树](topics/红黑树.md)
+  * [树状数组](topics/树状数组.md)
+  * [线段树](topics/线段树.md)
   * 操作系统算法
     * [银行家算法](algorithm/banker.md)
     * [页面置换算法](algorithm/pagedisplace.md)
