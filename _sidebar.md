@@ -83,14 +83,12 @@
   * [VMware安装centos 7](VMware/centos.md)
   * [VMware安装Ubuntu22.04.1](VMware/Ubuntu.md)
   * [VMware安装macOS Ventura 13](VMware/Ventura13.md)
-  * [VMware安装Red Hat](<VMware/red hat.md>)
+  * [VMware安装Red Hat](VMware/redhat.md)
   * [Ubuntu安装PowerVim](Vmware/PowerVim.md)
 
 * [windows配置docsify](qita/docsify.md)
   * [托管GitHub](qita/docsify1.md)
   * [linux服务器](qita/docsify2.md)
-
-* [服务器搭建halo个人博客](qita/halo.md)
 
 * windows软件安装
   * [键盘键值表](qita/jianpankey.md)
