@@ -7,7 +7,7 @@
 | VK\_LBUTTON   | 01    | 1    | 鼠标的左键                     |
 | VK\_RBUTTON   | 02    | 2    | 鼠标的右键                     |
 | VK-CANCEL     | 03    | 3    | Ctrl+Break(通常不需要处理)       |
-| VK\_MBUTTON   | 04    | 4    | 鼠标的中键（三按键鼠标)              |
+| VK\_MBUTTON   | 04    | 4    | 鼠标的中键(三按键鼠标)              |
 | VK\_BACK      | 08    | 8    | Backspace键                |
 | VK\_TAB       | 09    | 9    | Tab键                      |
 | VK\_CLEAR     | 0C    | 12   | Clear键（Num Lock关闭时的数字键盘5） |

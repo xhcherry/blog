@@ -25,12 +25,12 @@ unlocker下载地址：https://github.com/DrDonk/unlocker/releases
 
 接下来打开之前安装的VMware按下方所指操作
 
-![](../.gitbook/assets/XSM9Y.png)
+![](../assets/XSM9Y.png)
 
 下面的教程中只要完成了图片中的内容后点击下一步就行
 
-![](../.gitbook/assets/9CGM.png )
-![](../.gitbook/assets/9B67SUG.png )
+![](../assets/9CGM.png )
+![](../assets/9B67SUG.png )
 ![](../image/mac/mac1.png)
 ![](../image/mac/mac2.png)
 ![](../image/mac/mac3.png)
