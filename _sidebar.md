@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://wiki.xhcheats.cn/#/">
+<a href="https://xhcheats.cn/#/">
 <img src=xh1.jpg />
 </div>
 
