@@ -84,7 +84,8 @@
   * [VMware安装Ubuntu22.04.1](VMware/Ubuntu.md)
   * [VMware安装macOS Ventura 13](VMware/Ventura13.md)
   * [VMware安装Red Hat](VMware/redhat.md)
-  * [Ubuntu安装PowerVim](Vmware/PowerVim.md)
+  * [Ubuntu安装PowerVim](VMware/PowerVim.md)
+  * [Ubuntu更新gcc](VMware/ubuntugcc.md)
 
 * [windows配置docsify](qita/docsify.md)
   * [托管GitHub](qita/docsify1.md)
