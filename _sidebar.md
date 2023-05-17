@@ -52,11 +52,14 @@
   * [共享内存](Linuxnetwork/共享内存.md)
   * [守护进程](Linuxnetwork/守护进程.md)
   * [线程](Linuxnetwork/线程.md)
+  * [线程同步](Linuxnetwork/线程同步.md)
   * [网络基础](Linuxnetwork/网络基础.md)
   * [socket通信基础](Linuxnetwork/socket通信基础.md)
   * [IO多路复用](Linuxnetwork/IO多路复用.md)
   * [IO多路复用图解](Linuxnetwork/IO多路复用图解.md)
   * [UDP通信、本地套接字](Linuxnetwork/UDP通信、本地套接字.md)
+
+* 笔试or面试原题
 
 * 数据结构与算法
   * [十大排序](algorithm/topics/十大排序.md)
