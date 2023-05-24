@@ -80,6 +80,7 @@
 * git相关操作
   * [GitHub进行fork后与原仓库同步](git/upstream.md)
   * [私有库开启GitHub pages](git/githubaction.md)
+  * [git拉取分支](git/gitfork.md)
 
 * VMware
   * [windows安装VMware16pro](VMware/VMware.md)

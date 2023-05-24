@@ -62,7 +62,7 @@
 
 https://github.com/xhcherry/GTA5-Stand-LuaAIO
 
-点击篮圈中的fork（把旁边的star也点一下）
+点击篮圈中的fork（先把旁边的star也点一下）
 
 ![](../assets/git/200427.png)
 
