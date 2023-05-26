@@ -104,8 +104,9 @@ https://github.com/xhcherry/GTA5-Stand-LuaAIO
 
 ![](../assets/git/201620.png)
 
-然后回进入下图选择路径的框，在这里选择到roaming文件夹
-，注意此时的roaming里面不能有stand文件夹，你可以把stand文件夹备份一下或者剪切到别的地方
+然后会进入下图选择路径的框框，在这里选择到Roaming文件夹（此文件夹在c盘\用户\你的用户名(每个人不一样)\AppData\Roaming）；可能一些人看不见appdata文件夹，这是被隐藏了，在窗口上面的**查看**点击**显示**再点击**显示隐藏的项目**即可
+
+注意此时的roaming里面不能有stand文件夹，你可以把stand文件夹备份一下或者剪切到别的地方（例如桌面，之后还需要移回来）
 
 ![](../assets/git/201711.png)
 
@@ -121,7 +122,7 @@ https://github.com/xhcherry/GTA5-Stand-LuaAIO
 
 ![](../assets/git/202717.png)
 
-完成后 romaing文件夹里会多一个stand文件夹，里面就是各种脚本，然后再把你之前的stand文件夹移回来就行，切记移回来的时候，所有的文件都选择跳过，不要点覆盖！
+完成后 romaing文件夹里会多一个stand文件夹，里面就是各种脚本，然后再把你之前剪切出去的的stand文件夹移回来就行，切记移回来的时候，所有的文件都选择跳过，不要点覆盖！
 
 ![](../assets/git/202306.png)
 
