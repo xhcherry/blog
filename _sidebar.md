@@ -60,8 +60,8 @@
   * [UDP通信、本地套接字](Linuxnetwork/UDP通信、本地套接字.md)
 
 * 笔试or面试原题
-  * [0516笔试](work/230516.md)
-  * [2023美团暑期实习笔试](work/meituan2023.md)
+  * [0516笔试](algorithm/work/230516.md)
+  * [2023某团暑期实习笔试](algorithm/work/meituan2023.md)
 
 * 数据结构与算法
   * [十大排序](algorithm/topics/十大排序.md)
@@ -79,10 +79,10 @@
     * [页面置换算法](algorithm/pagedisplace.md)
     * [磁盘调度算法](algorithm/Disk_scheduling.md)
 
-* git相关操作
-  * [GitHub进行fork后与原仓库同步](git/upstream.md)
+* git操作
+  * [fork与upstream](git/upstream.md)
   * [私有库开启GitHub pages](git/githubaction.md)
-  * [git拉取分支](git/gitfork.md)
+  * [git环境配置与fork本地并与源同步](git/gitfork.md)
 
 * VMware
   * [windows安装VMware16pro](VMware/VMware.md)
@@ -93,10 +93,6 @@
   * [Ubuntu安装PowerVim](VMware/PowerVim.md)
   * [Ubuntu更新gcc](VMware/ubuntugcc.md)
 
-* [windows配置docsify](qita/docsify.md)
-  * [托管GitHub](qita/docsify1.md)
-  * [linux服务器](qita/docsify2.md)
-
 * windows软件安装
   * [键盘键值表](qita/jianpankey.md)
   * [Microsoft office激活教程](qita/office.md)
@@ -106,3 +102,6 @@
   * [windows安装proteus7.6\_Sp4](qita/proteus.md)
   * [windows安装SQL2019](qita/sql.md)
   * [idea+mysql配置](qita/idea.md)
+  * [windows配置docsify](qita/docsify.md)
+    * [托管GitHub](qita/docsify1.md)
+    * [linux服务器](qita/docsify2.md)
