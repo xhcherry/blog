@@ -6,8 +6,6 @@
 
 本网站教程与文档编写者QQ：2036201905，如有问题请联系此q
 
-游戏MOD购买点：[xhaomenu.xyz](https://xhaomeun.xyz/)
-
 游戏mod教程文档：[docs.xhcheats.cn/#](https://docs.xhcheats.cn/#)
 
 
