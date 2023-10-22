@@ -92,6 +92,7 @@
   * [VMware安装Red Hat](VMware/redhat.md)
   * [Ubuntu安装PowerVim](VMware/PowerVim.md)
   * [Ubuntu更新gcc](VMware/ubuntugcc.md)
+  * [VSCode SSH免密](VMware/vscodessh.md)
 
 * windows软件安装
   * [键盘键值表](qita/jianpankey.md)
