@@ -7,7 +7,7 @@
 
 * [下载压缩包解压教程](qita/jieya.md)
 
-* C++学习笔记
+* C++
   * C++ B站黑马
     * [C++基础入门](CPP/一/C++基础入门.md)
     * [通讯录管理系统](CPP/二/通讯录管理系统.md)
@@ -33,9 +33,10 @@
     * [第十四章](CPP/Primer/第14章.md)
     * [第十五章](CPP/Primer/第15章.md)
     * [第十六章](CPP/Primer/第16章.md)
-  * C++ 随笔
+  * C++ Note
     * [查看单个类的布局](CPP/随笔/single.md)
     * [实参与形参](CPP/随笔/shican.md)
+
 * Linux网络编程
   * [GCC](Linuxnetwork/GCC.md)
   * [静态库的制作](Linuxnetwork/静态库的制作.md)
@@ -59,10 +60,6 @@
   * [IO多路复用图解](Linuxnetwork/IO多路复用图解.md)
   * [UDP通信、本地套接字](Linuxnetwork/UDP通信、本地套接字.md)
 
-* 笔试or面试原题
-  * [0516笔试](algorithm/work/230516.md)
-  * [2023某团暑期实习笔试](algorithm/work/meituan2023.md)
-
 * 数据结构与算法
   * [十大排序](algorithm/topics/十大排序.md)
   * [二分查找](algorithm/topics/二分查找.md)
@@ -79,30 +76,35 @@
     * [页面置换算法](algorithm/pagedisplace.md)
     * [磁盘调度算法](algorithm/Disk_scheduling.md)
 
-* git操作
-  * [fork与upstream](git/upstream.md)
-  * [私有库开启GitHub pages](git/githubaction.md)
-  * [git环境配置与fork本地并与源同步](git/gitfork.md)
+* public
+  * [github fork与upstream](git/upstream.md)
+  * [github 私有库开启pages](git/githubaction.md)
+  * [git配置与分支和源同步](git/gitfork.md)
+  * [docsify配置](qita/docsify.md)
+    * [托管GitHub](qita/docsify1.md)
+    * [linux服务器](qita/docsify2.md)
+  * [VSCode SSH免密](VMware/vscodessh.md)
+  * [msys2安装与更新]()
 
-* VMware
-  * [windows安装VMware16pro](VMware/VMware.md)
+* Linux
+  * [windows安装VMware](VMware/VMware.md)
   * [VMware安装centos 7](VMware/centos.md)
   * [VMware安装Ubuntu22.04.1](VMware/Ubuntu.md)
   * [VMware安装macOS Ventura 13](VMware/Ventura13.md)
   * [VMware安装Red Hat](VMware/redhat.md)
   * [Ubuntu安装PowerVim](VMware/PowerVim.md)
   * [Ubuntu更新gcc](VMware/ubuntugcc.md)
-  * [VSCode SSH免密](VMware/vscodessh.md)
 
-* windows软件安装
+* windows
   * [键盘键值表](qita/jianpankey.md)
-  * [Microsoft office激活教程](qita/office.md)
-  * [windows修改中文用户名](qita/yonghuming.md)
-  * [windows关闭杀毒保护](qita/guanshadu.md)
-  * [windows安装keil](qita/keil.md)
-  * [windows安装proteus7.6\_Sp4](qita/proteus.md)
-  * [windows安装SQL2019](qita/sql.md)
+  * [Microsoft365激活](qita/office.md)
+  * [win修改中文用户名](qita/yonghuming.md)
+  * [win关闭杀毒保护](qita/guanshadu.md)
+  * [win安装keil](qita/keil.md)
+  * [win安装proteus7.6](qita/proteus.md)
+  * [win安装SQL2019](qita/sql.md)
   * [idea+mysql配置](qita/idea.md)
-  * [windows配置docsify](qita/docsify.md)
-    * [托管GitHub](qita/docsify1.md)
-    * [linux服务器](qita/docsify2.md)
+
+* 笔试or面试
+  * [0516笔试](algorithm/work/230516.md)
+  * [2023某团暑期实习笔试](algorithm/work/meituan2023.md)
