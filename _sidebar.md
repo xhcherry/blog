@@ -16,7 +16,7 @@
     * [C++提高编程](CPP/五/C++提高编程.md)
     * [基于STL的演讲比赛流程管理系统](CPP/六/演讲比赛.md)
     * [机房预约系统](CPP/七/机房预约系统.md)
-  * C++ Primer
+  * C++ Primer 
     * [第一章](CPP/Primer/第1章.md)
     * [第二章](CPP/Primer/第2章.md)
     * [第三章](CPP/Primer/第3章.md)
@@ -37,29 +37,6 @@
     * [查看单个类的布局](CPP/随笔/single.md)
     * [实参与形参](CPP/随笔/shican.md)
 
-* Linux网络编程
-  * [GCC](Linuxnetwork/GCC.md)
-  * [静态库的制作](Linuxnetwork/静态库的制作.md)
-  * [动态库的制作和使用](Linuxnetwork/动态库的制作和使用.md)
-  * [文件IO](Linuxnetwork/文件IO.md)
-  * [静态库和动态库的对比](Linuxnetwork/静态库和动态库的对比.md)
-  * [GDB调试](Linuxnetwork/GDB调试.md)
-  * [进程概述](Linuxnetwork/进程概述.md)
-  * [进程状态转换](Linuxnetwork/进程状态转换.md)
-  * [进程创建](Linuxnetwork/进程创建.md)
-  * [exec函数族](Linuxnetwork/exec函数族.md)
-  * [进程退出、孤儿进程、僵尸进程](Linuxnetwork/进程退出孤儿僵尸进程.md)
-  * [信号](Linuxnetwork/信号.md)
-  * [共享内存](Linuxnetwork/共享内存.md)
-  * [守护进程](Linuxnetwork/守护进程.md)
-  * [线程](Linuxnetwork/线程.md)
-  * [线程同步](Linuxnetwork/线程同步.md)
-  * [网络基础](Linuxnetwork/网络基础.md)
-  * [socket通信基础](Linuxnetwork/socket通信基础.md)
-  * [IO多路复用](Linuxnetwork/IO多路复用.md)
-  * [IO多路复用图解](Linuxnetwork/IO多路复用图解.md)
-  * [UDP通信、本地套接字](Linuxnetwork/UDP通信、本地套接字.md)
-
 * 数据结构与算法
   * [十大排序](algorithm/topics/十大排序.md)
   * [二分查找](algorithm/topics/二分查找.md)
@@ -71,10 +48,52 @@
   * [红黑树](algorithm/topics/红黑树.md)
   * [树状数组](algorithm/topics/树状数组.md)
   * [线段树](algorithm/topics/线段树.md)
+  * [2023某团暑期实习笔试](algorithm/work/meituan2023.md)
   * 操作系统算法
     * [银行家算法](algorithm/banker.md)
     * [页面置换算法](algorithm/pagedisplace.md)
     * [磁盘调度算法](algorithm/Disk_scheduling.md)
+
+* Linux
+  * Linux网络编程
+    * [GCC](Linuxnetwork/GCC.md)
+    * [静态库的制作](Linuxnetwork/静态库的制作.md)
+    * [动态库的制作和使用](Linuxnetwork/动态库的制作和使用.md)
+    * [文件IO](Linuxnetwork/文件IO.md)
+    * [静态库和动态库的对比](Linuxnetwork/静态库和动态库的对比.md)
+    * [GDB调试](Linuxnetwork/GDB调试.md)
+    * [进程概述](Linuxnetwork/进程概述.md)
+    * [进程状态转换](Linuxnetwork/进程状态转换.md)
+    * [进程创建](Linuxnetwork/进程创建.md)
+    * [exec函数族](Linuxnetwork/exec函数族.md)
+    * [进程退出、孤儿进程、僵尸进程](Linuxnetwork/进程退出孤儿僵尸进程.md)
+    * [信号](Linuxnetwork/信号.md)
+    * [共享内存](Linuxnetwork/共享内存.md)
+    * [守护进程](Linuxnetwork/守护进程.md)
+    * [线程](Linuxnetwork/线程.md)
+    * [线程同步](Linuxnetwork/线程同步.md)
+    * [网络基础](Linuxnetwork/网络基础.md)
+    * [socket通信基础](Linuxnetwork/socket通信基础.md)
+    * [IO多路复用](Linuxnetwork/IO多路复用.md)
+    * [IO多路复用图解](Linuxnetwork/IO多路复用图解.md)
+    * [UDP通信、本地套接字](Linuxnetwork/UDP通信、本地套接字.md)
+  * [windows安装VMware](VMware/VMware.md)
+  * [VMware安装centos 7](VMware/centos.md)
+  * [VMware安装Ubuntu22.04.1](VMware/Ubuntu.md)
+  * [VMware安装macOS Ventura 13](VMware/Ventura13.md)
+  * [VMware安装Red Hat](VMware/redhat.md)
+  * [Ubuntu安装PowerVim](VMware/PowerVim.md)
+  * [Ubuntu更新gcc](VMware/ubuntugcc.md)
+
+* Windows
+  * [键盘键值表](qita/jianpankey.md)
+  * [Microsoft365激活](qita/office.md)
+  * [win修改中文用户名](qita/yonghuming.md)
+  * [win关闭杀毒保护](qita/guanshadu.md)
+  * [win安装keil](qita/keil.md)
+  * [win安装proteus7.6](qita/proteus.md)
+  * [win安装SQL2019](qita/sql.md)
+  * [idea+mysql配置](qita/idea.md)
 
 * public
   * [github fork与upstream](git/upstream.md)
@@ -85,26 +104,3 @@
     * [linux服务器](qita/docsify2.md)
   * [VSCode SSH免密](VMware/vscodessh.md)
   * [msys2安装与更新]()
-
-* Linux
-  * [windows安装VMware](VMware/VMware.md)
-  * [VMware安装centos 7](VMware/centos.md)
-  * [VMware安装Ubuntu22.04.1](VMware/Ubuntu.md)
-  * [VMware安装macOS Ventura 13](VMware/Ventura13.md)
-  * [VMware安装Red Hat](VMware/redhat.md)
-  * [Ubuntu安装PowerVim](VMware/PowerVim.md)
-  * [Ubuntu更新gcc](VMware/ubuntugcc.md)
-
-* windows
-  * [键盘键值表](qita/jianpankey.md)
-  * [Microsoft365激活](qita/office.md)
-  * [win修改中文用户名](qita/yonghuming.md)
-  * [win关闭杀毒保护](qita/guanshadu.md)
-  * [win安装keil](qita/keil.md)
-  * [win安装proteus7.6](qita/proteus.md)
-  * [win安装SQL2019](qita/sql.md)
-  * [idea+mysql配置](qita/idea.md)
-
-* 笔试or面试
-  * [0516笔试](algorithm/work/230516.md)
-  * [2023某团暑期实习笔试](algorithm/work/meituan2023.md)
