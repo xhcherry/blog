@@ -38,17 +38,6 @@
     * [实参与形参](CPP/随笔/shican.md)
 
 * 数据结构与算法
-  * [十大排序](algorithm/topics/十大排序.md)
-  * [二分查找](algorithm/topics/二分查找.md)
-  * [并查集](algorithm/topics/并查集.md)
-  * [图论算法](algorithm/topics/图论算法.md)
-  * [二叉查找树](algorithm/topics/二叉查找树.md)
-  * [AVL数](algorithm/topics/AVL树.md)
-  * [splay树](algorithm/topics/splay树.md)
-  * [红黑树](algorithm/topics/红黑树.md)
-  * [树状数组](algorithm/topics/树状数组.md)
-  * [线段树](algorithm/topics/线段树.md)
-  * [2023某团暑期实习笔试](algorithm/work/meituan2023.md)
   * 操作系统算法
     * [银行家算法](algorithm/banker.md)
     * [页面置换算法](algorithm/pagedisplace.md)
