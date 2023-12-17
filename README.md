@@ -1,11 +1,19 @@
 # Xherry Wiki主页
 
-电脑端用户：直接在左边栏选择内容查看即可
+### 导航
 
-移动端用户：点击左下角三条横扛查看网站列表
+电脑端：直接在左边栏选择内容查看或左上角输入关键字搜索
 
-本网站教程与文档编写者QQ：2036201905，如有问题请联系此q
+移动端：点击左下角三条横扛查看列表栏目或左上角输入关键字搜索
 
-游戏mod教程文档：[docs.xhcheats.cn/#](https://docs.xhcheats.cn/#)
+游戏mod专栏：[docs.xhcheats.cn/#](https://docs.xhcheats.cn/#)
 
+### 联系我
 
+QQ：2036301905
+
+discord：xherry_x
+
+[GitHub](https://github.com/xhcherry)
+
+> 本站创于2022年3月，主要用于记录学习笔记，以及一些游戏mod的制作与使用教程
