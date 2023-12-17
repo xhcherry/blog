@@ -8,6 +8,8 @@
 
 游戏mod专栏：[docs.xhcheats.cn/#](https://docs.xhcheats.cn/#)
 
+本站备用(建议收藏)：[wiki.xhcheats.cn/#/](https://wiki.xhcheats.cn/#)
+
 ### 联系我
 
 QQ：2036301905
