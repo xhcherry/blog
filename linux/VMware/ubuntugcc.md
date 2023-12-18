@@ -1,4 +1,6 @@
-# Ubuntu更新GCC版本
+# Linux更新GCC版本
+
+## Ubuntu
 
 ```
 #查看当前使用的gcc版本命令:
@@ -32,4 +34,15 @@ locate gcc | grep -E "/usr/bin/gcc-[0-13]"
 # 命令最后的 20和50是优先级，如果使用auto选择模式，系统将默认使用优先级高的
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 20
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 50
+```
+
+## Centos
+
+```
+yum -y install centos-release-scl
+yum -y install devtoolset-11-gcc devtoolset-11-gcc-c++ devtoolset-11-binutils
+临时修改
+scl enable devtoolset-11 bash
+配置变量
+echo "source /opt/rh/devtoolset-11/enable" >>/etc/profile
 ```

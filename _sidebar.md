@@ -37,11 +37,18 @@
     * [查看单个类的布局](CPP/随笔/single.md)
     * [实参与形参](CPP/随笔/shican.md)
 
-* 数据结构与算法
-  * 操作系统算法
-    * [银行家算法](algorithm/banker.md)
-    * [页面置换算法](algorithm/pagedisplace.md)
-    * [磁盘调度算法](algorithm/Disk_scheduling.md)
+* XV6-MIT 6.828
+  * [前言](OS/content/preface.md)
+  * [第零章 操作系统接口](OS/content/chapter0.md)
+  * [第一章 第一个进程](OS/content/chapter1.md)
+  * [第二章 页表](OS/content/chapter2.md)
+  * [第三章 陷入，中断和驱动程序](OS/content/chapter3.md)
+  * [第四章 锁](OS/content/chapter4.md)
+  * [第五章 调度](OS/content/chapter5.md)
+  * [第六章 文件系统](OS/content/chapter6.md)
+  * [附录A PC 硬件](OS/content/AppendixA.md)
+  * [附录B 引导加载器](OS/content/AppendixB.md)
+  * [术语](OS/content/glossary.md)
 
 * Linux
   * Linux网络编程
@@ -72,7 +79,7 @@
   * [VMware安装macOS Ventura 13](linux/VMware/Ventura13.md)
   * [VMware安装Red Hat](linux/VMware/redhat.md)
   * [Ubuntu安装PowerVim](linux/VMware/PowerVim.md)
-  * [Ubuntu更新gcc](linux/VMware/ubuntugcc.md)
+  * [Linux更新gcc](linux/VMware/ubuntugcc.md)
 
 * Windows
   * [键盘键值表](windows/jianpankey.md)
@@ -93,3 +100,9 @@
     * [linux服务器](windows/docsify2.md)
   * [VSCode SSH免密](public/vscodessh.md)
   * [msys2安装与更新](public/msys2install.md)
+
+  * 数据结构与算法
+  * 操作系统算法
+    * [银行家算法](algorithm/banker.md)
+    * [页面置换算法](algorithm/pagedisplace.md)
+    * [磁盘调度算法](algorithm/Disk_scheduling.md)
