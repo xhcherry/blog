@@ -12,7 +12,7 @@ exec 函数族的函数执行成功后不会返回，因为调用进程的实体
 
 ### exec函数族作用图解
 
-![](../image/linuxnet/exec/220653.png)
+![](../../image/linuxnet/exec/220653.png)
 
 ### exec 函数族
 

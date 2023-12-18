@@ -80,7 +80,7 @@ int poll(struct pollfd *fds, nfds_t nfds, int timeout);
         >0（n） : 成功,n表示检测到集合中有n个文件描述符发生变化
 ```
 
-![](../image/linuxnet/211124.png)
+![](../../image/linuxnet/211124.png)
 
 ## epoll
 

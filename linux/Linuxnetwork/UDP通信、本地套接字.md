@@ -5,7 +5,7 @@
 ### UDP通信
 
 
-![](../image/linuxnet/UDP/214448.png)
+![](../../image/linuxnet/UDP/214448.png)
 
 ```
 #include <sys/types.h>
@@ -37,7 +37,7 @@ a.只能在局域网中使用。
 
 b.客户端需要绑定服务器广播使用的端口，才可以接收到广播消息。
 
-![](../image/linuxnet/UDP/214612.png)
+![](../../image/linuxnet/UDP/214612.png)
 
 ```
 // 设置广播属性的函数
@@ -62,7 +62,7 @@ a.组播既可以用于局域网，也可以用于广域网
 
 b.客户端需要加入多播组，才能接收到多播的数据
 
-![](../image/linuxnet/UDP/214701.png)
+![](../../image/linuxnet/UDP/214701.png)
 
 **组播地址**
 
@@ -111,7 +111,7 @@ struct in_addr
 
 本地套接字实现流程和网络套接字类似，一般呢采用TCP的通信流程。
 
-![](../image/linuxnet/UDP/215023.png)
+![](../../image/linuxnet/UDP/215023.png)
 
 ```
 // 本地套接字通信的流程 - tcp
