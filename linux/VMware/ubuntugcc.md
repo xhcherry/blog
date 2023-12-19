@@ -6,18 +6,18 @@
 #查看当前使用的gcc版本命令:
 gcc -v
 #更新软件源指令：
-sudo apt-get update
+sudo apt update
 #更新软件指令：
-sudo apt-get upgrade
+sudo apt upgrade
 ```
 
 ```
 添加相应的源
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 更新软件源
-sudo apt-get update
+sudo apt update
 安装最新gcc
-sudo apt-get install gcc-12
+sudo apt install gcc-12 g++-12
 
 ```
 
@@ -33,7 +33,8 @@ locate gcc | grep -E "/usr/bin/gcc-[0-13]"
 ```
 # 命令最后的 20和50是优先级，如果使用auto选择模式，系统将默认使用优先级高的
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 20
-sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 50
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-12 50
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-12 50
 ```
 
 ## Centos
