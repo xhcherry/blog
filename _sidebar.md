@@ -37,7 +37,7 @@
     * [查看单个类的布局](CPP/随笔/single.md)
     * [实参与形参](CPP/随笔/shican.md)
 
-* XV6-MIT 6.828
+* XV6 MIT-6.828
   * [前言](OS/content/preface.md)
   * [第零章 操作系统接口](OS/content/chapter0.md)
   * [第一章 第一个进程](OS/content/chapter1.md)
@@ -74,6 +74,18 @@
     * [IO多路复用图解](linux/Linuxnetwork/IO多路复用图解.md)
     * [UDP通信、本地套接字](linux/Linuxnetwork/UDP通信、本地套接字.md)
   * GNU Make
+    * [GCC 的介绍](linux/GNU_Make/1.GCC_Introduction.md)
+    * [简单编译原理](linux/GNU_Make/2.ComputerSystem.md)
+    * [c程序编译过程](linux/GNU_Make/3CompileC.md)
+    * [c++程序编译过程](linux/GNU_Make/4CompileCpp.md)
+    * [Makefile介绍](linux/GNU_Make/5Intro.md)
+    * [Makefile变量写法](linux/GNU_Make/6Variable.md)
+    * [操作符和Makefile常用符号](linux/GNU_Make/7Operator&Symbols.md)
+    * [常用函数](linux/GNU_Make/8Functions.md)
+    * [条件语句](linux/GNU_Make/9ConditionalStatement.md)
+    * [编译过程与编译选项](linux/GNU_Make/10Compile.md)
+    * [静态库的编译与链接](linux/GNU_Make/11StaticLibrary.md)
+    * [共享库/动态库的编译与链接](linux/GNU_Make/12SharedLibrary.md)
   * VMware
     * [windows安装VMware](linux/VMware/VMware.md)
     * [VMware安装centos 7](linux/VMware/centos.md)

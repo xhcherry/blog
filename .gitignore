@@ -2,3 +2,15 @@
 .user.ini
 404.html
 .htaccess
+
+# files
+*.o
+*.a
+*.so
+exec
+.DS_Store
+
+# folders
+objs
+workspace
+lib
