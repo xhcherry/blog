@@ -73,13 +73,16 @@
     * [IO多路复用](linux/Linuxnetwork/IO多路复用.md)
     * [IO多路复用图解](linux/Linuxnetwork/IO多路复用图解.md)
     * [UDP通信、本地套接字](linux/Linuxnetwork/UDP通信、本地套接字.md)
-  * [windows安装VMware](linux/VMware/VMware.md)
-  * [VMware安装centos 7](linux/VMware/centos.md)
-  * [VMware安装Ubuntu22.04.1](linux/VMware/Ubuntu.md)
-  * [VMware安装macOS Ventura 13](linux/VMware/Ventura13.md)
-  * [VMware安装Red Hat](linux/VMware/redhat.md)
-  * [Ubuntu安装PowerVim](linux/VMware/PowerVim.md)
-  * [Linux更新gcc](linux/VMware/ubuntugcc.md)
+  * GNU Make
+  * VMware
+    * [windows安装VMware](linux/VMware/VMware.md)
+    * [VMware安装centos 7](linux/VMware/centos.md)
+    * [VMware安装Ubuntu22.04.1](linux/VMware/Ubuntu.md)
+    * [VMware安装macOS Ventura 13](linux/VMware/Ventura13.md)
+    * [VMware安装Red Hat](linux/VMware/redhat.md)
+  * Linux Note
+    * [Ubuntu安装PowerVim](linux/VMware/PowerVim.md)
+    * [Linux更新gcc](linux/VMware/ubuntugcc.md)
 
 * Windows
   * [键盘键值表](windows/jianpankey.md)
@@ -101,7 +104,7 @@
   * [VSCode SSH免密](public/vscodessh.md)
   * [msys2安装与更新](public/msys2install.md)
 
-  * 数据结构与算法
+* 数据结构与算法
   * 操作系统算法
     * [银行家算法](algorithm/banker.md)
     * [页面置换算法](algorithm/pagedisplace.md)
