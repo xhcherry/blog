@@ -50,6 +50,24 @@
   * [附录B 引导加载器](OS/content/AppendixB.md)
   * [术语](OS/content/glossary.md)
 
+* STM32
+  * [STM32介绍、软件安装](stm32/1intro.md)
+  * [标准库新建工程](stm32/2newproject.md)
+  * [GPIO结构与输出](stm32/3GPIOoutput.md)
+  * [GPIO输出示例](stm32/4GPIOout_exam.md)
+  * [GPIO输入、库函数必备C知识](stm32/5GPIOinput.md)
+  * [GPIO输入示例](stm32/6GPIOin_exam.md)
+  * [OLED简介、电路、驱动函数](stm32/7OLEDintro.md)
+  * [OLED示例、keil调试](stm32/8OLEDexam.md)
+  * [中断系统、EXIT外部中断](stm32/9EXITintro.md)
+  * [EXIT示例](stm32/10EXITexam.md)
+  * [TIM定时中断](stm32/11TIMtime.md)
+  * [TIM定时中断示例](stm32/12TIMtime_exam.md)
+  * [TIM输出比较](stm32/13TIMout.md)
+  * [TIM输出比较示例](stm32/14TIMout_exam.md)
+  * [TIM输入捕获](stm32/15TIMinput.md)
+  * [PWM输入捕获示例](stm32/16PWM_exam.md)
+  * [编码接口测速](stm32/17getspeed.md)
 * Linux
   * Linux网络编程
     * [GCC](linux/Linuxnetwork/GCC.md)
