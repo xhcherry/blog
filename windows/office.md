@@ -10,22 +10,22 @@
 
 解压完成后打开office tool plus
 
-![](<../assets/image (194).png>)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014256.png)
 
 进入主页后选择左边栏的部署，按下图所指按步骤操作
 > 注意如果你要制作二维码则在下图中必须点上access和excel，其他自己看着，需要就点
 
-![](<../assets/MC3.png>)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014324.png)
 点击开始部署后就等待安装完成
 
 安装完成后
 
 如下图点击左边栏的激活并且按照步骤和要求填写内容
 
-![](<../assets/3GE3.png>)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014341.png)
 
 最后点击第六步激活等待显示激活完成即可
 
 如果激活失败就按下图方法先清除许可证
 
-![](<../assets/image (200).png>)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014350.png)

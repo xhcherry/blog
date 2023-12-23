@@ -2,27 +2,27 @@
 
 运行(快捷键Win+R)窗口，输入 regedit 命令，确定或回车，可以快速打开注册表编辑器
 
-![](<../assets/image (178).png>)
+![](https://pic.xhcheats.cn/assets/2023/12/24/015146.png)
 
 依次点开HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion**
 
 找到**RegisteredOwner
 
-![](<../assets/image (195).png>)
+![](https://pic.xhcheats.cn/assets/2023/12/24/015152.png)
 
 **双击打开这个名称直接修改数值数据即可**
 
-![](<../assets/image (179).png>)
+![](https://pic.xhcheats.cn/assets/2023/12/24/015159.png)
 
 然后定位到HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList这个位置
 
 profilelist里面的文件夹数量不固定，都点开看看，其中有一个如下图红线部分最后的数值栏就是需要修改的位置
 
-![](<../assets/image (192).png>)
+![](https://pic.xhcheats.cn/assets/2023/12/24/015216.png)
 
 双击profilelmagepath打开后修改如下图的数值数据一栏，将最后的名字修改成英文就行
 
-![](<../assets/image (185).png>)
+![](https://pic.xhcheats.cn/assets/2023/12/24/015222.png)
 
 以上完成后右键开始菜单，选择关机或注销，选择注销
 

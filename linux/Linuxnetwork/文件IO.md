@@ -2,19 +2,19 @@
 
 ### 标准C 库 IO 函数
 
-![](../../image/linuxnet/164124.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034114.png)
 
 ### 标准C 库 IO 和 Linux 系统 IO 的关系
 
-![](../../image/linuxnet/164409.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034121.png)
 
 ### 虚拟地址空间
 
-![](../../image/linuxnet/164455.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034129.png)
 
 ### 文件描述符
 
-![](../../image/linuxnet/164549.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034140.png)
 
 ### Linux系统 IO 函数
 
@@ -68,7 +68,7 @@ time_t st_ctime; // 最后一次改变时间 指属性
 
 ### st_mode变量
 
-![](../../image/linuxnet/165103.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034148.png)
 
 ### 文件属性操作函数
 

@@ -1,61 +1,63 @@
-# windows安装proteus7.6\_Sp4
+# windows安装proteus7.6_Sp4
 
-![](../assets/14L.png)
+emm，这个教程是老师给的包，不过从网上百度也可以，不需要版本一定相同
 
-![](../assets/2GBF.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014525.png)
 
-![](../assets/O06.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014531.png)
 
-![](../assets/RX.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014557.png)
 
-![](../assets/7ISB1.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014616.png)
 
-![](../assets/ZGFD.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014622.png)
 
-![](../assets/QFF2.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014703.png)
 
-![](../assets/WNO.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014709.png)
 
-![](../assets/DSOX.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014717.png)
+
+![](https://pic.xhcheats.cn/assets/2023/12/24/014722.png)
 
 下图不建议用中文路径
 
-![](../assets/MXP.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014729.png)
 
-![](../assets/YRHM.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014736.png)
 
-![](../assets/ZRB.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014743.png)
 
-![](../assets/LHUK.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014750.png)
 
-![](../assets/V4N.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014756.png)
 
-<mark style="color:red;">**打开刚刚的安装路径（默认C:\Program Files (x86)\Labcenter Electronics\Proteus 7 Professional）**</mark>
+**打开刚刚的安装路径（默认C:\Program Files (x86)\Labcenter Electronics\Proteus 7 Professional）**
 
-<mark style="color:red;">**如果你下载的包里面没有Proteus 7.6 SP4破解1.2版这个文件**</mark>
+**如果你下载的包里面没有Proteus 7.6 SP4破解1.2版这个文件**
 
-<mark style="color:red;">**就参考下面链接后重新下载文件**</mark>
+**就参考下面链接后重新下载文件**
 
 [windows关杀毒](guanshadu.md)
 
-![](../assets/U4L.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014822.png)
 
-![](../assets/GU9ZC.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014827.png)
 
-![](../assets/C6S.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014833.png)
 
-![](../assets/WYN.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014839.png)
 
-![](../assets/IZJA.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014845.png)
 
-![](../assets/6TP.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014851.png)
 
 至此安装完成
 
 在开始菜单的所有应用中找到它的文件夹，ares 7打开即可
 
-![](../assets/EEW.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014858.png)
 
-![](../assets/61S.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014904.png)
 
 如上图，enjoy it！

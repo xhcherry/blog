@@ -12,7 +12,7 @@ iso镜像下载(百度网盘)：https://pan.baidu.com/s/1uf5gPOSXCh-frel1u_Sxkw?
 unlocker下载地址：https://github.com/DrDonk/unlocker/releases
 
 这里只要下载最新的即可
-![](../../image/mac/mac0.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004235.png)
 
 下载完成后完全解压出来（禁压缩包内直接打开）
 
@@ -21,36 +21,36 @@ unlocker下载地址：https://github.com/DrDonk/unlocker/releases
 
 然后等待黑框运行完成即可
 
-![](../../image/mac/mac00.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004242.png)
 
 接下来打开之前安装的VMware按下方所指操作
 
-![](../../assets/XSM9Y.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004248.png)
 
 下面的教程中只要完成了图片中的内容后点击下一步就行
 
-![](../../assets/9CGM.png )
-![](../../assets/9B67SUG.png )
-![](../../image/mac/mac1.png)
-![](../../image/mac/mac2.png)
-![](../../image/mac/mac3.png)
-![](../../image/mac/mac4.png)
-![](../../image/mac/mac5.png)
-![](../../image/mac/mac6.png)
-![](../../image/mac/mac7.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004254.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004301.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004306.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004313.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004332.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004338.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004345.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004351.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004358.png)
 
 (下面在文本中的操作可搜索)
 
 在文中找到board-id.reflectHost并且键值改为"FALSE"
 board-id.reflectHost = "FALSE"
 
-![](../../image/mac/mac8.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004409.png)
 
 找到ethernet0.virtualDev并且键值改为"vmxnet3"
 
 ethernet0.virtualDev = "vmxnet3"
 
-![](../../image/mac/mac9.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004415.png)
 
 在文件的最底部添加下面几行代码
 
@@ -64,7 +64,7 @@ serialNumber.reflectHost = "FALSE"
 
 serialNumber = "C01234567890"
 
-![](../../image/mac/mac10.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004421.png)
 
 注意: 如果你是AMD的处理器, 就在文件的最底部再附加如下代码
 
@@ -92,30 +92,30 @@ smbios.reflectHost = "TRUE"
 
 在VMware中选择打开此虚拟机
 
-![](../../image/mac/mac111.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004444.png)
 
-![](../../image/mac/mac11.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004458.png)
 
-![](../../image/mac/mac12.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004505.png)
 
-![](../../image/mac/mac13.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004511.png)
 
-![](../../image/mac/mac14.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004517.png)
 
-![](../../image/mac/mac15.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004523.png)
 
-![](../../image/mac/mac16.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004530.png)
 
-![](../../image/mac/mac17.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004536.png)
 
-![](../../image/mac/mac18.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004546.png)
 
-![](../../image/mac/mac19.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004553.png)
 
-![](../../image/mac/mac20.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004606.png)
 
-![](../../image/mac/mac21.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004611.png)
 
-![](../../image/mac/mac22.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/004619.png)
 
 这里会重启很多次，慢慢等着进就行了差不多30分钟左右，若三四十分钟还不行，就检查前面是不是有哪一步操作错误

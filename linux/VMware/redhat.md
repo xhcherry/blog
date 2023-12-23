@@ -1,30 +1,30 @@
 # VMware安装Red Hat
 
-![](../../image/redhat/1.png)
-![](../../image/redhat/2.png)
-![](../../image/redhat/3.png)
-![](../../image/redhat/4.png)
-![](../../image/redhat/5.png)
-![](../../image/redhat/6.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003032.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003045.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003054.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003101.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003107.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003117.png)
 
-等待打开后如下图的黑框，一直等待就行了，直到出现下下张图的样子
+等待打开后如下图的黑框，一直等待就行了，直到出现下张图的样子
 
-![](../../image/redhat/7.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003135.png)
 
 没有出现下图前别乱动
 
-![](../../image/redhat/8.png)
-![](../../image/redhat/9_.png)
-![](../../image/redhat/9.png)
-![](../../image/redhat/10.png)
-![](../../image/redhat/11.png)
-![](../../image/redhat/12.png)
-![](../../image/redhat/13.png)
-![](../../image/redhat/14.png)
-![](../../image/redhat/15.png)
-![](../../image/redhat/16.png)
-![](../../image/redhat/17.png)
-![](../../image/redhat/18.png)
-![](../../image/redhat/19.png)
-![](../../image/redhat/20.png)
-![](../../image/redhat/21.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003141.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003147.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003214.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003221.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003229.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003235.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003252.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003259.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003307.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003322.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003659.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003709.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003715.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003721.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/003741.png)

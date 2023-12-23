@@ -1,23 +1,23 @@
 # IO多路复用图解
 
-![](../../image/linuxnet/io多路复用图解/213743.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034417.png)
 
-![](../../image/linuxnet/io多路复用图解/213751.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034424.png)
 
-![](../../image/linuxnet/io多路复用图解/213758.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034431.png)
 
-![](../../image/linuxnet/io多路复用图解/213803.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034439.png)
 
-![](../../image/linuxnet/io多路复用图解/213811.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034451.png)
 
-![](../../image/linuxnet/io多路复用图解/213816.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034501.png)
 
-![](../../image/linuxnet/io多路复用图解/213823.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034508.png)
 
-![](../../image/linuxnet/io多路复用图解/213830.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034515.png)
 
-![](../../image/linuxnet/io多路复用图解/213836.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034521.png)
 
-![](../../image/linuxnet/io多路复用图解/213842.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034528.png)
 
-![](../../image/linuxnet/io多路复用图解/213900.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034534.png)

@@ -10,119 +10,119 @@
 
 点击创建新的虚拟机
 
-![](../../image/centos7/204240.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035041.png)
 
 选择典型，然后下一步
 
-![](../../image/centos7/204415.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035058.png)
 
 在安装程序光盘映像文件中选择浏览，并选择下载好的.iso文件，然后下一步
 
-![](../../image/centos7/204437.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035113.png)
 
 为虚拟机填名称以及它的保存路径，然后下一步
 
-![](../../image/centos7/204506.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035140.png)
 
 选择磁盘大小并且选择存为单个文件后下一步
 
-![](../../image/centos7/204518.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035214.png)
 
 点击完成即可（如果想要给虚拟机更多的核心或者内存在自定义硬件中课直接修改）
 
-![](../../image/centos7/204532.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035224.png)
 
 使用方向键选择install centos 7
 
-![](../../image/centos7/204553.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035234.png)
 
 等待下图走完
 
-![](../../image/centos7/204614.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035244.png)
 
 在下图中选择中国然后继续
 
-![](../../image/centos7/204743.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035257.png)
 
 下图中选择软件安装
 
-![](../../image/centos7/204826.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035307.png)
 
 选择GNOME桌面然后点击左上角完成
 
-![](../../image/centos7/204827.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035316.png)
 
 点击下图安装位置
 
-![](../../image/centos7/204828.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035325.png)
 
 选中20G的硬盘后左上角点击完成
 
-![](../../image/centos7/204829.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035333.png)
 
 点击下图右下角的开始安装
 
-![](../../image/centos7/204830.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035341.png)
 
 下图点击root密码
 
-![](../../image/centos7/204939.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035350.png)
 
 设置密码，若设置的密码例如123456就需要点击两次左上角的完成
 
-![](../../image/centos7/204954.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035404.png)
 
 点击下图的创建用户
 
-![](../../image/centos7/204955.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035412.png)
 
 设置用户信息，密码若例如123456需要点击两次完成按钮
 
-![](../../image/centos7/204956.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035419.png)
 
 等待安装完成
 
-![](../../image/centos7/205200.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035427.png)
 
 完成后点击下图右下角重启
 
-![](../../image/centos7/205550.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035435.png)
 
 等待重启,如下图点击LICENSE INFORMATION
 
-![](../../image/centos7/213327.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035442.png)
 
 同意许可证后点击完成
 
-![](../../image/centos7/213334.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035450.png)
 
 点击网络和主机名
 
-![](../../image/centos7/213356.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035457.png)
 
 将右边的以太网打开后点击左上角完成
 
-![](../../image/centos7/213408.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035505.png)
 
 点击右下角完成配置
 
-![](../../image/centos7/213418.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035511.png)
 
 点击用户登录
 
-![](../../image/centos7/213510.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035520.png)
 
 输入密码后登录
 
-![](../../image/centos7/213518.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035526.png)
 
 下面就一直下一步就行了
 
-![](../../image/centos7/213557.png)
-![](../../image/centos7/213614.png)
-![](../../image/centos7/213623.png)
-![](../../image/centos7/213629.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035534.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035541.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035547.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035559.png)
 
 点击开始使用后即完成
 
-![](../../image/centos7/213634.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/035605.png)

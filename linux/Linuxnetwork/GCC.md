@@ -18,11 +18,11 @@ GCC 不仅支持C 的许多“方言”，也可以区别不同的C 语言标准
 
 ### 编程语言的发展
 
-![](../../image/linuxnet/160642.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034332.png)
 
 ### GCC工作流程
 
-![](../../image/linuxnet/160725.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034338.png)
 
 ### gcc 和g++ 的区别
 
@@ -55,5 +55,5 @@ gcc 命令不能自动和 C++ 程序使用的库联接，所以通常使用 g++ 
 
 ### GCC常用参数选项
 
-![](../../image/linuxnet/161155.png)
-![](../../image/linuxnet/161201.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034346.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034351.png)

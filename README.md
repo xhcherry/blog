@@ -18,4 +18,4 @@ discord：xherry_x
 
 [GitHub](https://github.com/xhcherry)
 
-> 本站创于2022年3月，主要用于记录学习笔记，以及一些游戏mod的制作与使用教程
+> 本站创于2022年3月，主要用于记录学习笔记，游戏mod的制作与使用教程见[游戏mod专栏](https://docs.xhcheats.cn/#)

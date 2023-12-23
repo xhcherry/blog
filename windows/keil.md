@@ -1,43 +1,45 @@
-# windows安装keil
+# windows安装keil 51
 
-![](../assets/V8KI.png)
+此教程是keil 5 V5版本，可以安装新版的V6，并且可以尝试使用VS Code配合EIDE插件开发
 
-![](<../assets/47N.png>)
+![](https://pic.xhcheats.cn/assets/2023/12/24/013813.png)
 
-![](<../assets/P7AM.png>)
+![](https://pic.xhcheats.cn/assets/2023/12/24/013819.png)
+
+![](https://pic.xhcheats.cn/assets/2023/12/24/013825.png)
 
 下图不建议用中文路径
 
-![](<../assets/N234.png>)
+![](https://pic.xhcheats.cn/assets/2023/12/24/013831.png)
 
-![](<../assets/LGQ.png>)
+![](https://pic.xhcheats.cn/assets/2023/12/24/013839.png)
 
-![](../assets/P2PVB.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/013844.png)
 
-![](../assets/8X8R.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/013851.png)
 
-![](<../assets/XV.png>)
+![](https://pic.xhcheats.cn/assets/2023/12/24/013859.png)
 
-![](<../assets/image (9).png>)
+![](https://pic.xhcheats.cn/assets/2023/12/24/013903.png)
 
-<mark style="color:red;">**如果看不见上图红圈的文件就先关闭电脑杀毒，详见下链接**</mark>
+**如果看不见上图红圈的文件就先关闭电脑杀毒，详见下链接**
 
 [windows关闭杀毒保护](guanshadu.md)
 
-<mark style="color:red;">**关闭杀毒后重新下载文件**</mark>
+**关闭杀毒后重新下载文件**
 
 打开keil\_lic后先放在那
 
 再在桌面打开keil uvision4按下图操作
 
-![](../assets/8XG.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/013942.png)
 
-![](<../assets/AJ.png>)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014025.png)
 
-![](<../assets/SCRX.png>)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014032.png)
 
-![](../assets/5QJ5.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014039.png)
 
-![](../assets/RESW.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/014045.png)
 
 enjoy it！！！

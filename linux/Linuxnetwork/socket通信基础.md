@@ -20,7 +20,7 @@ socket 本身有“插座”的意思，在 Linux 环境下，用于表示进程
 件的操作一致。区别是管道主要应用于本地进程间通信，而套接字多应用于网络进程间数据的传
 递。
 
-![](../../image/linuxnet/socket网络基础/161602.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034549.png)
 
 ```
 // 套接字通信分两部分：
@@ -57,7 +57,7 @@ socket是一套通信的接口，Linux 和 Windows 都有，但是有一些细�
 0x 11 22 33 44 12 34 56 78
 ```
 
-![](../../image/linuxnet/socket网络基础/161854.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034556.png)
 
 ```
 大端字节序
@@ -67,7 +67,7 @@ socket是一套通信的接口，Linux 和 Windows 都有，但是有一些细�
 01 02 03 04
 0x 12 34 56 78 11 22 33 44
 ```
-![](../../image/linuxnet/socket网络基础/161859.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034612.png)
 
 ### 字节序转换函数
 
@@ -159,7 +159,7 @@ typedef unsigned short int sa_family_t;
 在sockaddr 退化成了（void *）的作用，传递一个地址给函数，至于这个函数是 sockaddr_in 还是
 sockaddr_in6，由地址族确定，然后函数内部再强制类型转化为所需的地址类型。
 
-![](../../image/linuxnet/socket网络基础/162315.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034623.png)
 
 UNIX 本地域协议族使用如下专用的 socket 地址结构体：
 ```
@@ -255,7 +255,7 @@ TCP:传输控制协议，面向连接的，可靠的，基于字节流，仅支�
 |首部开销 |8个字节| 最少20个字节|
 |适用场景 |实时应用(视频会议，直播)| 可靠性高的应用(文件传输)|
 
-![](../../image/linuxnet/socket网络基础/163053.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034632.png)
 
 ```
 // TCP 通信的流程
@@ -346,7 +346,7 @@ TCP 提供了一种可靠、面向连接、字节流、传输层的服务，采�
 
 三次握手发生在客户端连接的时候，当调用connect()，底层会通过TCP协议进行三次握手。
 
-![](../../image/linuxnet/socket网络基础/163505.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034640.png)
 
 16 位端口号（port number）：告知主机报文段是来自哪里（源端口）以及传给哪个上层协议或应用程序（目的端口）的。进行 TCP 通信时，客户端通常使用系统自动选择的临时端口号。
 
@@ -369,7 +369,7 @@ TCP 提供了一种可靠、面向连接、字节流、传输层的服务，采�
     这也是 TCP 可靠传输的一个重要保障。
     16 位紧急指针（urgent pointer）：是一个正的偏移量。它和序号字段的值相加表示最后一个紧急数据的下一个字节的序号。因此，确切地说，这个字段是紧急指针相对当前序号的偏移，不妨称之为紧急偏移。TCP 的紧急指针是发送端向接收端发送紧急数据的方法。
 
-![](../../image/linuxnet/socket网络基础/163800.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034647.png)
 ```
 第一次握手：
 1.客户端将SYN标志位置为1
@@ -404,7 +404,7 @@ TCP 中采用滑动窗口来进行传输控制，滑动窗口的大小意味着�
             发送缓冲区（发送缓冲区的窗口）
             接收缓冲区（接收缓冲区的窗口）
 
-![](../../image/linuxnet/socket网络基础/163959.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034656.png)
 
     发送方的缓冲区：
         白色格子：空闲的空间
@@ -415,7 +415,7 @@ TCP 中采用滑动窗口来进行传输控制，滑动窗口的大小意味着�
         紫色格子：已经接收到的数据
 
 
-![](../../image/linuxnet/socket网络基础/164022.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034701.png)
 
 ```
 # mss: Maximum Segment Size(一条数据的最大的数据量)
@@ -444,7 +444,7 @@ c:滑动窗口2k
 
 因为在TCP连接的时候，采用三次握手建立的的连接是双向的，在断开的时候需要双向断开。
 
-![](../../image/linuxnet/socket网络基础/164108.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034710.png)
 
 ## TCP 通信并发
     要实现TCP通信服务器处理并发的任务，使用多线程或者多进程来解决。
@@ -455,9 +455,9 @@ c:滑动窗口2k
 
 ## TCP 状态转换
 
-![](../../image/linuxnet/socket网络基础/164155.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034718.png)
 
-![](../../image/linuxnet/socket网络基础/164210.png)
+![](https://pic.xhcheats.cn/assets/2023/12/23/034728.png)
 
     2MSL（Maximum Segment Lifetime）
 

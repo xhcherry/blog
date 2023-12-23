@@ -37,19 +37,6 @@
     * [查看单个类的布局](CPP/随笔/single.md)
     * [实参与形参](CPP/随笔/shican.md)
 
-* XV6 MIT-6.828
-  * [前言](OS/content/preface.md)
-  * [第零章 操作系统接口](OS/content/chapter0.md)
-  * [第一章 第一个进程](OS/content/chapter1.md)
-  * [第二章 页表](OS/content/chapter2.md)
-  * [第三章 陷入，中断和驱动程序](OS/content/chapter3.md)
-  * [第四章 锁](OS/content/chapter4.md)
-  * [第五章 调度](OS/content/chapter5.md)
-  * [第六章 文件系统](OS/content/chapter6.md)
-  * [附录A PC 硬件](OS/content/AppendixA.md)
-  * [附录B 引导加载器](OS/content/AppendixB.md)
-  * [术语](OS/content/glossary.md)
-
 * STM32
   * [STM32介绍、软件安装](stm32/1intro.md)
   * [标准库新建工程](stm32/2newproject.md)
@@ -68,6 +55,19 @@
   * [TIM输入捕获](stm32/15TIMinput.md)
   * [PWM输入捕获示例](stm32/16PWM_exam.md)
   * [编码接口测速](stm32/17getspeed.md)
+
+* XV6 book(MIT-6.S801)
+  * [0.目录](OS/xv6-riscv-book/Chapter-0.md)
+  * [1.操作系统接口](OS/xv6-riscv-book/Chapter-1.md)
+  * [2.操作系统组织](OS/xv6-riscv-book/Chapter-2.md)
+  * [3.页表](OS/xv6-riscv-book/Chapter-3.md)
+  * [4.陷阱和系统调用](OS/xv6-riscv-book/Chapter-4.md)
+  * [5.中断和设备驱动](OS/xv6-riscv-book/Chapter-5.md)
+  * [6.锁](OS/xv6-riscv-book/Chapter-6.md)
+  * [7.调度](OS/xv6-riscv-book/Chapter-7.md)
+  * [8.文件系统](OS/xv6-riscv-book/Chapter-8.md)
+  * [9.并发](OS/xv6-riscv-book/Chapter-9.md)
+
 * Linux
   * Linux网络编程
     * [GCC](linux/Linuxnetwork/GCC.md)
@@ -119,7 +119,7 @@
   * [Microsoft365激活](windows/office.md)
   * [win修改中文用户名](windows/yonghuming.md)
   * [win关闭杀毒保护](windows/guanshadu.md)
-  * [win安装keil](windows/keil.md)
+  * [win安装keil 51](windows/keil.md)
   * [win安装proteus7.6](windows/proteus.md)
   * [win安装SQL2019](windows/sql.md)
   * [idea+mysql配置](windows/idea.md)
@@ -136,6 +136,6 @@
 
 * 数据结构与算法
   * 操作系统算法
-    * [银行家算法](algorithm/banker.md)
-    * [页面置换算法](algorithm/pagedisplace.md)
-    * [磁盘调度算法](algorithm/Disk_scheduling.md)
+    * [银行家算法](OS/algorithm/banker.md)
+    * [页面置换算法](OS/algorithm/pagedisplace.md)
+    * [磁盘调度算法](OS/algorithm/Disk_scheduling.md)

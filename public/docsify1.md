@@ -1,6 +1,6 @@
 # docsify托管到GitHub
 
-这里使用的是GitHub desktop进行操作，需要去github创建一个账号并下载应用程序
+这里使用的是GitHub desktop进行操作,相比于命令行要简单很多，需要去github创建一个账号并下载应用程序
 
 github官网：https://github.com/
 
@@ -8,42 +8,42 @@ github官网：https://github.com/
 
 如下图添加一个新库
 
-![](../image/docsify1/1.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/010813.png)
 
 将之前初始化生成的三个文件拖进去
 
-![](../image/docsify1/2.jpg)
+![](https://pic.xhcheats.cn/assets/2023/12/24/010839.png)
 
 按下图在github desktop中操作
 
-![](../image/docsify1/3.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/010846.png)
 
-![](../image/docsify1/4.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/010852.png)
 
 然后登录你的网页版GitHub，打开刚刚上传的库，按红箭头所指操作
 
-![](../image/docsify1/5.png)
-![](../image/docsify1/6.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/010858.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/010905.png)
 
-> 第三方域名如下操作，如果你没有域名就看下方的"无自用域名"
+> 第三方域名如下操作，如果你没有域名就看最后的"无自用域名"
 
-![](../image/docsify1/10.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/010913.png)
 
 下图中红圈的内容是记录值
 
-![](../image/docsify1/7.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/010939.png)
 
-![](../image/docsify1/8.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/010946.png)
 
 在你的域名解析设置中添加一条记录，如下图所示，记录值就是之前红圈里的
 
-![](../image/docsify1/9.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/010954.png)
 
 > 无自用域名
 
-![](../image/docsify1/10.png)
-![](../image/docsify1/11.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/011000.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/011006.png)
 
 在填入上方内容后会报错，但会在pages页面最上面显示出如下图内容，所指链接就是公开访问链接
 
-![](../image/docsify1/12.png)
+![](https://pic.xhcheats.cn/assets/2023/12/24/011012.png)
