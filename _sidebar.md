@@ -47,7 +47,7 @@
   * [OLED简介、电路、驱动函数](stm32/7OLEDintro.md)
   * [OLED示例、keil调试](stm32/8OLEDexam.md)
   * [中断系统、EXIT外部中断](stm32/9EXITintro.md)
-  * [EXIT示例](stm32/10EXITexam.md)
+  * [EXIT中断示例](stm32/10EXITexam.md)
   * [TIM定时中断](stm32/11TIMtime.md)
   * [TIM定时中断示例](stm32/12TIMtime_exam.md)
   * [TIM输出比较](stm32/13TIMout.md)
