@@ -133,6 +133,7 @@
     * [linux服务器](windows/docsify2.md)
   * [VSCode SSH免密](public/vscodessh.md)
   * [msys2安装与更新](public/msys2install.md)
+  * [面试记录](public/ms.md)
 
 * 数据结构与算法
   * 操作系统算法
