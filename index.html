@@ -25,6 +25,8 @@
             subMaxLevel: 4,
             maxLevel: 5,
             mergeNavbar: true,
+            loadFooter: true,
+            loadFooter: '_footer.md',
             alias: {
                 '/.*/_sidebar.md': '/_sidebar.md',
             },
@@ -43,8 +45,20 @@
                 namespace: "website-1",
             },
             pagination: {
-                previousText: '上一页',
-                nextText: '下一页',
+                previousText: '上一章节',
+                nextText: '下一章节',
+                crossChapter: true,
+                crossChapterText: true,
+            },
+            scrollToTop: {
+                auto: true,
+                text: '',
+                icon: 'arrow-up-2',
+                right: 15,
+                bottom: 15,
+                width: 50,
+                height: 40,
+                offset: 500
             },
             // sidebarDisplayLevel: 0 // set sidebar display level
         }
@@ -86,6 +100,10 @@
 
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+    <!-- 页脚 -->
+    <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
+
     <!-- 搜索功能支持 -->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
     <!-- plugins -->
@@ -102,6 +120,12 @@
 
     <!--在所有的代码块上添加一个简单的Click to copy按钮来允许用户从你的文档中轻易地复制代码-->
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+
+    <!-- 分章节按钮 -->
+    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+    <!-- 回到顶部 -->
+    <script src="//unpkg.com/@zhg-x/docsify-plugins@1.0.2/src/scroll-to-top.js"></script>
 </body>
 
 </html>

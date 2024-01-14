@@ -6,7 +6,9 @@
 
 移动端：点击左下角三条横扛查看列表栏目或左上角输入关键字搜索
 
-游戏mod专栏：[docs.xhcheats.cn/#](https://docs.xhcheats.cn/#)
+游戏mod扩展购买：[https://xhaomenu.xyz/](https://xhaomenu.xyz/)
+
+游戏mod教程专栏：[docs.xhcheats.cn/#](https://docs.xhcheats.cn/#)
 
 本站备用(建议收藏)：[wiki.xhcheats.cn/#/](https://wiki.xhcheats.cn/#)
 
