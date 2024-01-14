@@ -54,7 +54,8 @@
   * [TIM输出比较示例](stm32/14TIMout_exam.md)
   * [TIM输入捕获](stm32/15TIMinput.md)
   * [PWM输入捕获示例](stm32/16PWM_exam.md)
-  * [编码接口测速](stm32/17getspeed.md)
+  * [TIM编码器接口](stm32/17timcoderintro.md)
+  * [编码接口测速](stm32/18timgetspeed.md)
 
 * XV6 book(MIT-6.S801)
   * [0.目录](OS/xv6-riscv-book/Chapter-0.md)
