@@ -38,24 +38,53 @@
     * [实参与形参](CPP/随笔/shican.md)
 
 * STM32
-  * [STM32介绍、软件安装](stm32/1intro.md)
-  * [标准库新建工程](stm32/2newproject.md)
-  * [GPIO结构与输出](stm32/3GPIOoutput.md)
-  * [GPIO输出示例](stm32/4GPIOout_exam.md)
-  * [GPIO输入、库函数必备C知识](stm32/5GPIOinput.md)
-  * [GPIO输入示例](stm32/6GPIOin_exam.md)
-  * [OLED简介、电路、驱动函数](stm32/7OLEDintro.md)
-  * [OLED示例、keil调试](stm32/8OLEDexam.md)
-  * [中断系统、EXIT外部中断](stm32/9EXITintro.md)
-  * [EXIT中断示例](stm32/10EXITexam.md)
-  * [TIM定时中断](stm32/11TIMtime.md)
-  * [TIM定时中断示例](stm32/12TIMtime_exam.md)
-  * [TIM输出比较](stm32/13TIMout.md)
-  * [TIM输出比较示例](stm32/14TIMout_exam.md)
-  * [TIM输入捕获](stm32/15TIMinput.md)
-  * [PWM输入捕获示例](stm32/16PWM_exam.md)
-  * [TIM编码器接口](stm32/17timcoderintro.md)
-  * [编码接口测速](stm32/18timgetspeed.md)
+  * [1-1 STM32介绍、软件安装](stm32/1intro.md)
+  * [2-1 标准库新建工程](stm32/2newproject.md)
+  * [3-1 GPIO结构与输出](stm32/3GPIOoutput.md)
+  * [3-2 GPIO输出示例](stm32/4GPIOout_exam.md)
+  * [3-3 GPIO输入、库函数必备C知识](stm32/5GPIOinput.md)
+  * [3-4 GPIO输入示例](stm32/6GPIOin_exam.md)
+  * [4-1 OLED简介、电路、驱动函数](stm32/7OLEDintro.md)
+  * [4-2 OLED示例、keil调试](stm32/8OLEDexam.md)
+  * [5-1 中断系统、EXIT外部中断](stm32/9EXITintro.md)
+  * [5-2 EXIT中断示例](stm32/10EXITexam.md)
+  * [6-1 TIM定时中断](stm32/11TIMtime.md)
+  * [6-2 TIM定时中断示例](stm32/12TIMtime_exam.md)
+  * [6-3 TIM输出比较](stm32/13TIMout.md)
+  * [6-4 TIM输出比较示例](stm32/14TIMout_exam.md)
+  * [6-5 TIM输入捕获](stm32/15TIMinput.md)
+  * [6-6 PWM输入捕获示例](stm32/16PWM_exam.md)
+  * [6-7 TIM编码器接口](stm32/17timcoderintro.md)
+  * [6-8 编码接口测速示例](stm32/18timgetspeed.md)
+  * [7-1 ADC模数转换器]
+  * [7-2 AD单通道&AD多通道]
+  * [8-1 DMA直接存储器存取]
+  * [8-2 DMA数据转运&DMA+AD多通道]
+  * [9-1 USART串口协议]
+  * [9-2 USART串口外设]
+  * [9-3 串口发送&串口发送+接收]
+  * [9-4 USART串口数据包]
+  * [9-5 串口收发HEX数据包]
+  * [9-6 FlyMcu串口下载&stlink]
+  * [10-1 I2C通信协议]
+  * [10-2 MPU6050简介]
+  * [10-3 软件I2C读写MPU6050]
+  * [10-4 I2C通信外设]
+  * [10-5 硬件I2C读写MPU6050]
+  * [11-1 SPI通信协议]
+  * [11-2 W25Q64简介]
+  * [11-3 软件SPI读写W25Q64]
+  * [11-4 SPI通信外设]
+  * [11-5 硬件SPI读写W25Q64]
+  * [12-1 UNIX时间戳]
+  * [12-2 BKP备份寄存器&RTC实时时钟]
+  * [12-3 读写备份寄存器&实时时钟]
+  * [13-1 PWR电源控制]
+  * [13-2 修改主频&睡眠|停止|待机模式]
+  * [14-1 WDG看门狗]
+  * [14-2 独立&窗口看门狗]
+  * [15-1 FLASH闪存]
+  * [15-2 读写内部FLASH&读取芯片ID]
 
 * XV6 book(MIT-6.S801)
   * [0.目录](OS/xv6-riscv-book/Chapter-0.md)
