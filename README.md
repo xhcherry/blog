@@ -20,4 +20,4 @@ discord：xherry_x
 
 GitHub：[xhcherry](https://github.com/xhcherry)
 
-> 本站创于2022年3月，主要用于记录C/C++,Linux网络编程,STM32等嵌入式开发学习笔记，游戏mod的制作与使用教程见[Rockstar游戏mod专栏](https://docs.xhcheats.cn/#)
+> 本站创于2021年10月，用于记录C/C++,Linux网络编程,STM32等嵌入式开发学习笔记，游戏mod的制作与使用教程见[Rockstar游戏mod专栏](https://docs.xhcheats.cn/#)
