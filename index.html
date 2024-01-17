@@ -24,9 +24,16 @@
             loadSidebar: true,
             subMaxLevel: 4,
             maxLevel: 5,
-            mergeNavbar: true,
-            loadFooter: true,
-            loadFooter: '_footer.md',
+            footer: {
+                copy: '<span>Copyright &copy; 2021</span>',
+                auth: ' <strong><a href="https://github.com/xhcherry" target="_blank">Xherry</a></strong>',
+                pre: '<hr/>',
+                style: 'font-size: 18px; text-align: left;',
+            },
+
+            // mergeNavbar: true,
+            // loadFooter: true,
+            // loadFooter: '_footer.md',
             alias: {
                 '/.*/_sidebar.md': '/_sidebar.md',
             },
@@ -102,6 +109,7 @@
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 
     <!-- 页脚 -->
+    <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
 
     <!-- 搜索功能支持 -->
