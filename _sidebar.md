@@ -163,6 +163,7 @@
     * [linux服务器](windows/docsify2.md)
   * [VSCode SSH免密](public/vscodessh.md)
   * [msys2安装与更新](public/msys2install.md)
+  * [无法访问GitHub解决](public/changehost.md)
   * [面试记录](public/ms.md)
 
 * 数据结构与算法
@@ -170,3 +171,4 @@
     * [银行家算法](OS/algorithm/banker.md)
     * [页面置换算法](OS/algorithm/pagedisplace.md)
     * [磁盘调度算法](OS/algorithm/Disk_scheduling.md)
+  * [笔试](OS/algorithm/bs.md)
