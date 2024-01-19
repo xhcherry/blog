@@ -153,6 +153,7 @@
   * [win安装proteus7.6](windows/proteus.md)
   * [win安装SQL2019](windows/sql.md)
   * [idea+mysql配置](windows/idea.md)
+  * [无法访问GitHub解决](public/changehost.md)
 
 * public
   * [github fork与upstream](public/upstream.md)
@@ -163,7 +164,6 @@
     * [linux服务器](windows/docsify2.md)
   * [VSCode SSH免密](public/vscodessh.md)
   * [msys2安装与更新](public/msys2install.md)
-  * [无法访问GitHub解决](public/changehost.md)
   * [面试记录](public/ms.md)
 
 * 数据结构与算法
