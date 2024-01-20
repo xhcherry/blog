@@ -33,9 +33,7 @@
     * [C++提高编程](CPP/heima/五/C++提高编程.md)
     * [基于STL的演讲比赛流程管理系统](CPP/heima/六/演讲比赛.md)
     * [机房预约系统](CPP/heima/七/机房预约系统.md)
-  * C/C++ Note
-    * [查看单个类的布局](CPP/随笔/single.md)
-    * [实参与形参](CPP/随笔/shican.md)
+  * [C/C++ Note](CPP/note.md)
 
 * STM32
   * [1-1 STM32介绍、软件安装](stm32/1intro.md)
