@@ -216,3 +216,182 @@ int main() {
     return 0;
 }
 ```
+
+### LC1064 不动点
+
+给定已经按升序排列、由不同整数组成的数组 A，返回满足 A[i] == i 的最小索引 i。
+如果不存在这样的 i，返回 -1。
+
+```
+示例 1：
+输入：[-10,-5,0,3,7]
+输出：3
+解释：
+对于给定的数组，A[0] = -10，A[1] = -5，A[2] = 0，A[3] = 3，因此输出为 3 。
+
+示例 2：
+输入：[0,2,5,8,17]
+输出：0
+示例：
+A[0] = 0，因此输出为 0 。
+
+示例 3：
+输入：[-10,-5,3,4,7,9]
+输出：-1
+解释： 
+不存在这样的 i 满足 A[i] = i，因此输出为 -1 。
+ 
+提示：
+1 <= A.length < 10^4
+-10^9 <= A[i] <= 10^9
+```
+
+```cpp
+class Solution {
+public:
+    int fixedPoint(vector<int>& A) {
+    	for(int i = 0; i < A.size(); ++i)
+    	{
+    		if(A[i] == i)
+    			return i;
+    	}
+    	return -1;
+    }
+};
+```
+
+### LC9.回文数
+给你一个整数 x ，如果 x 是一个回文整数，返回 true ；否则，返回 false 。
+
+回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
+
+例如，121 是回文，而 123 不是。
+
+```
+示例 1：
+
+输入：x = 121
+输出：true
+示例 2：
+
+输入：x = -121
+输出：false
+解释：从左向右读, 为 -121 。 从右向左读, 为 121- 。因此它不是一个回文数。
+示例 3：
+
+输入：x = 10
+输出：false
+解释：从右向左读, 为 01 。因此它不是一个回文数。
+ 
+提示：
+
+-231 <= x <= 231 - 1
+```
+
+```cpp
+class Solution {
+public:
+    bool isPalindrome(int x) {
+        if (x < 0 || (x % 10 == 0 && x != 0)) {
+            return false;
+        }
+        int revertedNumber = 0;
+        while (x > revertedNumber) {
+            revertedNumber = revertedNumber * 10 + x % 10;
+            x /= 10;
+        }
+        return x == revertedNumber || x == revertedNumber / 10;
+    }
+};
+```
+
+### LC152.乘积最大子数组
+给你一个整数数组 nums ，请你找出数组中乘积最大的连续子数组（该子数组中至少包含一个数字），并返回该子数组所对应的乘积。
+
+测试用例的答案是一个 32-位 整数。
+
+子数组 是数组的连续子序列。
+
+```
+示例 1:
+
+输入: nums = [2,3,-2,4]
+输出: 6
+解释: 子数组 [2,3] 有最大乘积 6。
+示例 2:
+
+输入: nums = [-2,0,-1]
+输出: 0
+解释: 结果不能为 2, 因为 [-2,-1] 不是子数组。
+ 
+
+提示:
+
+1 <= nums.length <= 2 * 104
+-10 <= nums[i] <= 10
+nums 的任何前缀或后缀的乘积都 保证 是一个 32-位 整数
+```
+
+```cpp
+class Solution {
+public:
+    int maxProduct(vector<int>& nums) {
+        int maxF = nums[0], minF = nums[0], ans = nums[0];
+        for (int i = 1; i < nums.size(); ++i) {
+            int mx = maxF, mn = minF;
+            maxF = max(mx * nums[i], max(nums[i], mn * nums[i]));
+            minF = min(mn * nums[i], min(nums[i], mx * nums[i]));
+            ans = max(maxF, ans);
+        }
+        return ans;
+    }
+};
+```
+
+### LC215.数组中的第K个最大元素
+给定整数数组 nums 和整数 k，请返回数组中第 k 个最大的元素。
+
+请注意，你需要找的是数组排序后的第 k 个最大的元素，而不是第 k 个不同的元素。
+
+你必须设计并实现时间复杂度为 O(n) 的算法解决此问题。
+
+```
+示例 1:
+
+输入: [3,2,1,5,6,4], k = 2
+输出: 5
+示例 2:
+
+输入: [3,2,3,1,2,4,5,5,6], k = 4
+输出: 4
+ 
+
+提示：
+
+1 <= k <= nums.length <= 105
+-104 <= nums[i] <= 104
+```
+
+```cpp
+class Solution {
+public:
+    int quickselect(vector<int> &nums, int l, int r, int k) {
+        if (l == r)
+            return nums[k];
+        int partition = nums[l], i = l - 1, j = r + 1;
+        while (i < j) {
+            do i++; while (nums[i] < partition);
+            do j--; while (nums[j] > partition);
+            if (i < j)
+                swap(nums[i], nums[j]);
+        }
+        if (k <= j)return quickselect(nums, l, j, k);
+        else return quickselect(nums, j + 1, r, k);
+    }
+
+    int findKthLargest(vector<int> &nums, int k) {
+        int n = nums.size();
+        return quickselect(nums, 0, n - 1, n - k);
+    }
+};
+```
