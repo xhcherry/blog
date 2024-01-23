@@ -14,6 +14,8 @@
 
 接下来进入GitHub官网：https://github.com/
 
+**注意，要是你无法访问GitHub，[请点此处解决办法](https://xhcheats.cn/#/public/changehost)**
+
 点击下图中左上角的sign up
 
 ![](https://pic.xhcheats.cn/assets/2023/12/24/011525.png)
@@ -64,11 +66,13 @@
 
 https://github.com/xhcherry/GTA5-Stand-LuaAIO
 
-点击篮圈中的fork（先把旁边的⭐star也点一下）
+点击下图篮圈中的fork（先把旁边的⭐star也点一下）
 
 ![](https://pic.xhcheats.cn/assets/2023/12/24/011718.png)
 
-注意把名字这里直接改成Stand，然后点击create fork
+注意下图把名字这里直接改成Stand(不能是其他任何单词)
+
+重要：Stand这几个字母，大写S，其余小写，一个字母都不可以错!!! 然后再点击create fork
 
 ![](https://pic.xhcheats.cn/assets/2023/12/24/011725.png)
 

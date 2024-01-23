@@ -138,9 +138,7 @@
     * [VMware安装Ubuntu22.04.1](linux/VMware/Ubuntu.md)
     * [VMware安装macOS Ventura 13](linux/VMware/Ventura13.md)
     * [VMware安装Red Hat](linux/VMware/redhat.md)
-  * Linux Note
-    * [Ubuntu安装PowerVim](linux/VMware/PowerVim.md)
-    * [Linux更新gcc](linux/VMware/ubuntugcc.md)
+  * [Linux Note](linux/VMware/linuxnote.md)
 
 * Windows
   * [键盘键值表](windows/jianpankey.md)
@@ -162,11 +160,13 @@
     * [linux服务器](windows/docsify2.md)
   * [VSCode SSH免密](public/vscodessh.md)
   * [msys2安装与更新](public/msys2install.md)
-  * [面试记录](public/ms.md)
 
 * 数据结构与算法
   * 操作系统算法
     * [银行家算法](OS/algorithm/banker.md)
     * [页面置换算法](OS/algorithm/pagedisplace.md)
     * [磁盘调度算法](OS/algorithm/Disk_scheduling.md)
+  * 代码随想录训练营
+    * [day1 数组](OS/algorithm/carl/day1.md)
   * [笔试](OS/algorithm/bs.md)
+  * [面试记录](public/ms.md)
