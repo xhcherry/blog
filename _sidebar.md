@@ -9,22 +9,22 @@
 
 * C/C++
   * C++ Primer 5th
-    * [第一章](CPP/Primer/第1章.md)
-    * [第二章](CPP/Primer/第2章.md)
-    * [第三章](CPP/Primer/第3章.md)
-    * [第四章](CPP/Primer/第4章.md)
-    * [第五章](CPP/Primer/第5章.md)
-    * [第六章](CPP/Primer/第6章.md)
-    * [第七章](CPP/Primer/第7章.md)
-    * [第八章](CPP/Primer/第8章.md)
-    * [第九章](CPP/Primer/第9章.md)
-    * [第十章](CPP/Primer/第10章.md)
-    * [第十一章](CPP/Primer/第11章.md)
-    * [第十二章](CPP/Primer/第12章.md)
-    * [第十三章](CPP/Primer/第13章.md)
-    * [第十四章](CPP/Primer/第14章.md)
-    * [第十五章](CPP/Primer/第15章.md)
-    * [第十六章](CPP/Primer/第16章.md)
+    * [一.开始](CPP/Primer/第1章.md)
+    * [二.变量和基本类型](CPP/Primer/第2章.md)
+    * [三.字符串,向量和数组](CPP/Primer/第3章.md)
+    * [四.表达式](CPP/Primer/第4章.md)
+    * [五.语句](CPP/Primer/第5章.md)
+    * [六.函数](CPP/Primer/第6章.md)
+    * [七.类](CPP/Primer/第7章.md)
+    * [八.IO库](CPP/Primer/第8章.md)
+    * [九.顺序容器](CPP/Primer/第9章.md)
+    * [十.泛型算法](CPP/Primer/第10章.md)
+    * [十一.关联容器](CPP/Primer/第11章.md)
+    * [十二.动态内存](CPP/Primer/第12章.md)
+    * [十三.拷贝控制](CPP/Primer/第13章.md)
+    * [十四.重载运算和类型转换](CPP/Primer/第14章.md)
+    * [十五.面向对象程序设计](CPP/Primer/第15章.md)
+    * [十六.模板与泛型编程](CPP/Primer/第16章.md)
   * C++ B站黑马
     * [C++基础入门](CPP/heima/一/C++基础入门.md)
     * [通讯录管理系统](CPP/heima/二/通讯录管理系统.md)
@@ -153,20 +153,18 @@
 
 * public
   * [github fork与upstream](public/upstream.md)
-  * [github 私有库开启pages](public/githubaction.md)
   * [git配置与分支和源同步](public/gitfork.md)
-  * [docsify配置](windows/docsify.md)
-    * [托管GitHub](windows/docsify1.md)
-    * [linux服务器](windows/docsify2.md)
+  * [docsify配置](public/docsify.md)
   * [VSCode SSH免密](public/vscodessh.md)
   * [msys2安装与更新](public/msys2install.md)
 
 * 数据结构与算法
+  * 代码随想录训练营
+    * [day1 数组](OS/algorithm/carl/day1.md)
+    * [day2 数组](OS/algorithm/carl/day2.md)
   * 操作系统算法
     * [银行家算法](OS/algorithm/banker.md)
     * [页面置换算法](OS/algorithm/pagedisplace.md)
     * [磁盘调度算法](OS/algorithm/Disk_scheduling.md)
-  * 代码随想录训练营
-    * [day1 数组](OS/algorithm/carl/day1.md)
   * [笔试](OS/algorithm/bs.md)
   * [面试记录](public/ms.md)
