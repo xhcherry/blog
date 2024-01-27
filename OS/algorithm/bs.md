@@ -1,397 +1,234 @@
 # 笔试
 
-## 京东
+## 京东测开
 
-1.用于找到数组 b，满足 (ai + bi) % i == 0 且 b 中的所有元素均不相同
+### 20道单选题
 
-在这个程序中，findArrayB 函数接受一个整数数组 a，并返回一个满足条件的数组 b。主函数演示了如何使用这个函数，并打印出数组A和数组B的内容。
-```cpp
-#include <iostream>
-#include <vector>
-#include <unordered_set>
+第1和9丢失
 
-std::vector<int> findArrayB(const std::vector<int>& a) {
-    int n = a.size();
-    std::vector<int> b(n);
-    std::unordered_set<int> used;
+2.下列关于Tomcat的说法中，错误的是()\
+A.Tomcat是一款小型的WEB应用服务器，适合于中小型WEB应用\
+B.Tomcat的默认端口是8080\
+C.Tomcat的项目目录放在/usr/local/tomcat/webapps下面,库文件放到/usr/local/tomcat/lib下面\
+D.Tomcat的性能取决于jvm内存的大小，可以通过catalina.sh配置文件中的Xms和Xmx分别设置最大内存和最小内存
 
-    for (int i = 0; i < n; ++i) {
-        int currentBi = n * i - a[i];
-
-        // 确保 b 中的元素均不相同
-        while (used.count(currentBi) > 0) {
-            ++currentBi;
-        }
-
-        b[i] = currentBi;
-        used.insert(currentBi);
+3.下列代码运行后会出什么错()
+```java
+class Access{
+    public int x;
+    private int y;
+    void cal(int a,int b){
+        x=a+1;
+        y=b;
     }
-
-    return b;
 }
-
-int main() {
-    std::vector<int> arrayA = {2, 3, 5, 7, 11}; // 你的arrayA
-    std::vector<int> arrayB = findArrayB(arrayA);
-
-    std::cout << "arrayA: ";
-    for (int num : arrayA) {
-        std::cout << num << " ";
+public class Test{
+    public static void main(String[] args){
+        Access obj=new Access();
+        obj.cal(2,3);
+        System.out.println(obj.x+" "+obj.y);
     }
-
-    std::cout << "\narrayB: ";
-    for (int num : arrayB) {
-        std::cout << num << " ";
-    }
-
-    return 0;
 }
 ```
+A.compile error\
+B.runtime error\
+C.2 3\
+D.3 3
 
-2.使用面向对象的设计来模拟兽游戏的问题。在这里，你需要创建一个基类 Player，并派生出两个类 Human 和 Beast，这两个类都有一个虚函数用于攻击其他玩家
+4.下列接口测试的常见接口的描述，有错误的一项是 ()\
+A.webService接口: 走soap协议通过http传输，请求报文和返回报文都是xml格式的。\
+B.http api接口:走http协议，通过路径来区分调用的方法，请求报文都是key-value的，返回报文一般都是json串，有get和post等方法，这也是最常用的两种请求方式。\
+C.socket接口: 走UDP协议，通过sever和client建立连接来发送数据.\
+D.dubbo接口: 使用的是 TCP/IP是传输层协议
 
-在这个示例中，Player 是基类，Human 和 Beast 分别是派生类。它们都有一个 attack 函数，通过虚函数的机制，实现了在运行时根据对象的实际类型调用相应的攻击函数。这样，你可以轻松扩展游戏，添加新的角色类型，而不需要复杂的 if-else 逻辑。
-```cpp
-#include <iostream>
-#include <string>
+5.哪个是自动化测试模型()
 
-class Player {
-public:
-    Player(const std::string& name) : name(name) {}
+A.线性测试、模块化与类库、数据驱动测试、关键字驱动测试\
+B.V模型、W模型、X模型、H模型\
+C.概念模型、层次模型、网状模型、关系模型、面向对象模型\
+D.瀑布模型、敏捷模型
 
-    virtual void attack(Player& other) const {
-        std::cout << name << " attacks " << other.getName() << std::endl;
-    }
+6.postman中，Pre-request Script中设置环境变量的方法是 ()\
+A.pm.environment.set("variable key","variable value");\
+B.pm.environment.set("variable key":"variable value");\
+C.pm.environment.set("variable key";"variable value");\
+D.pm.environment.set("variable key"="variable value");
 
-    const std::string& getName() const {
-        return name;
-    }
+7.下列关于哈希查找说法错误的是 ()\
+A.哈希表最适合的求解问题是查找与给定值相等的记录\
+B.哈希查找不适合同样的关键字对应多条记录的情况\
+C.哈希查找不适合范围查找\
+D.无论冲突是否发生，哈希表的查找不需要关键字比较
 
-private:
-    std::string name;
-};
+8.一个类创建10个对象时，会创建多少个静态变量和属性变量()\
+A.1, 10\
+B.10, 10\
+C.10, 1\
+D.11
 
-class Human : public Player {
-public:
-    Human(const std::string& name) : Player(name) {}
+10.某程序的段表如下，则逻辑地址 (1,262) 对应的物理地址为 ()\
+|段号|段首址|段长度|
+|:---:|:---:|:---:|
+|0|400K|80K|
+|1|128K|40K|
+|2|780K|20K|
+|3|1000K|30K|
 
-    // 重写攻击函数
-    void attack(Player& other) const override {
-        std::cout << getName() << " (Human) attacks " << other.getName() << std::endl;
-    }
-};
+A.780K+2\
+B.390K\
+C.128K+262\
+D.130K
 
-class Beast : public Player {
-public:
-    Beast(const std::string& name) : Player(name) {}
+11.现用广度优先搜索算法(BFS) 来遍历一个无向图G，则在最坏情况下，BFS算法实现的空间复杂度为()\
+注:存储图所需的空间不计入算法实现的空间复杂度计算,|V|表示顶点个数,|E|表示边数。\
+A.O(1)\
+B.O(|V|)\
+C.O(|E|)\
+D.O(|E+V|)
 
-    // 重写攻击函数
-    void attack(Player& other) const override {
-        std::cout << getName() << " (Beast) attacks " << other.getName() << std::endl;
-    }
-};
+12.下列关于Java引用关系描述错误的是 ()\
+A.有强引用指向一个对象，就能表明对象还”活着”，垃圾收集器不会回收这个对象\
+B.有软引用指向一个对象，只有当JVM认为内存不足时，才会去试图回收软引用指向的对象\
+C.被弱引用指向的对象，在下次垃圾回收时一定会被回收\
+D.不能通过虚引用 (幻象引用) 访问到对象，使用时必须结合引用队列。
 
-int main() {
-    Human human("Alice");
-    Beast beast("Goblin");
+13.某主机的 IP 地址为 212.212.77.55，子网掩码为 255.255.252.0.若该主机向其所在子网发送广播分组，则目的地址可以是()\
+A.212.212.76.255\
+B.212.212.77.255\
+C.212.212.78.255\
+D.212.212.80.255\
+E.212.212.79.255
 
-    // 模拟对战
-    human.attack(beast);
-    beast.attack(human);
+14.对于MySQL的触发器，以下说法不正确的是()\
+A.可以触发触发器的操作是: insert、 delete、 select、 update\
+B.触发器可以用在所在数据库以外的对象上\
+C.一个表可以定义多个触发器\
+D.触发器是在check约束之前执行的
 
-    return 0;
-}
+15.使用分时系统，当就绪进程数达到20时，并保证响应时间不超过1s(忽略进程切换时间)，此时时间片最大应为()\
+A.100ms\
+B.50ms\
+C.1s\
+D.20ms
+
+16.在下面的代码片段中，变量'b'和变量'd'是什么类型?\
+int a [],b;\
+int []c,d;\
+A.'b'和'd'都是int\
+B.'b'和'd'都是arrays\
+C.'b'是int;'d'是array\
+D.'d'是int;'b'是array
+
+17.在高度为10(只有根节点的高度为0)的堆中，元素个数最少和最多分别是()\
+A.1024 2047\
+B.1023 1024\
+C.512 513\
+D.512 1024
+
+18.下面关于InnoDB 存储引警和 MyISAM 存储引擎正确的是()\
+A.InnoDB 支持行级锁和表级锁，而 MyISAM 支持表级锁\
+B.InnoDB 支持全文索引，而 MyISAM 不支持全文索引\
+C.InnoDB 不支持事务，而 MyISAM 支持事务\
+D.InnoDB 不支持外键，而 MYISAM 支持外键
+
+19.假设有n个条件，每个条件的取值有两个(0,1)，全组合有几种规则?\
+A.2n\
+B.2^n\
+C.n^2\
+D.n
+
+20.一棵含有6个节点完全二叉树的中序遍历为[n,y,m,x,p,z]，那么这棵树的前序遍历结果()\
+A.[x,y,m,n,z,p]\
+B.[x,y,n,m,z,p]\
+C.[n,m,y,p,z,x]\
+D.[n,m,p,y,z,x]
+
+
+## 三道算法题
+
+### ACM输入示例
+
+```py
+# ACM模式多行输入示例
+# 给出n阶方阵里所有数,求方阵里所有数的和
+"""
+输入
+3
+1 2 3
+2 1 3
+3 2 1
+输出
+18
+"""
+import sys
+if __name__ == "__mian__":
+    # 读取第一行的n
+    n = int(sys.stdin.readline().strip())
+    ans = 0
+    for i in range(n):
+        # 读取每一行
+        line = sys.stdin.readline().strip()
+        #把每一行的数字分隔后转化成int列表
+        values = list(map(int, line.split()))
+        for v in values:
+        ans += V
+    print(ans)
+
+# ACM模式单行输入示例
+# 求和，输入1 1，输出2
+import sys
+for line in sys.stdin:
+    a = line.split()
+    print(int(a[0]) + int(a[1]))
 ```
 
-3.你正在爬楼梯。它需要 n 阶你才能到达楼顶，每次你可以爬 1 或 2 个台阶。问有多少种不同的方法可以爬到楼顶。
+### 算法1
 
-在这个示例中，climbStairs 函数接受一个整数 n，表示楼梯的阶数，返回爬到楼顶的不同方法数量。这个问题的解法是典型的动态规划问题，使用数组保存中间结果，从而避免重复计算。
-```cpp
-#include <iostream>
-#include <vector>
+给出一个长度和Nowcoder等长的字符串s，请你计算要更改s中的几个字符可以
+使得字符串s和Nowcoder相等\
+输入描述：在一行中输入一个长度和Nowcoder等长的字符串s\
+保证字符串中只包含大小写字母和数字\
+输出描述:在一行中输出一个数字代表要更改的次数\
+输入nowcoder输出1\
+输入nOWcoDeR输出5
 
-int climbStairs(int n) {
-    if (n <= 2) {
-        return n;
-    }
-
-    // 创建一个数组用于保存每个阶梯的爬法数量
-    std::vector<int> dp(n + 1, 0);
-
-    // 初始条件
-    dp[1] = 1;
-    dp[2] = 2;
-
-    // 动态规划，从第三阶开始计算
-    for (int i = 3; i <= n; ++i) {
-        dp[i] = dp[i - 1] + dp[i - 2];
-    }
-
-    return dp[n];
-}
-
-int main() {
-    int n = 5; // 你要爬的楼梯数
-
-    int ways = climbStairs(n);
-
-    std::cout << "There are " << ways << " ways to climb the stairs." << std::endl;
-
-    return 0;
-}
-```
-
-4.n道题，时间为t，完全可以分完全解决，初步解决和放弃，分别会得到不同的分数，在有限的时间t下怎么规划才能拿最高的分?
-
-
-在这个示例中，t 和 s 分别表示每道题目需要的时间和得分，T 表示总时间。 maxScore 函数返回在有限时间内获得的最大分数
-```cpp
-#include <iostream>
-#include <vector>
-
-int maxScore(std::vector<int>& t, std::vector<int>& s, int T) {
-    int n = t.size();  // 题目数量
-
-    // 初始化二维数组
-    std::vector<std::vector<int>> dp(T + 1, std::vector<int>(n + 1, 0));
-
-    // 动态规划
-    for (int i = 1; i <= T; ++i) {
-        for (int j = 1; j <= n; ++j) {
-            if (i >= t[j - 1]) {
-                dp[i][j] = std::max(dp[i][j - 1], std::max(dp[i - t[j - 1]][j - 1] + s[j - 1], dp[i - t[j - 1]][j] + s[j - 1]));
-            } else {
-                dp[i][j] = dp[i][j - 1];
-            }
-        }
-    }
-
-    return dp[T][n];
-}
-
-int main() {
-    std::vector<int> t = {2, 3, 4, 1, 2};
-    std::vector<int> s = {4, 7, 5, 1, 3};
-    int T = 10;
-
-    int result = maxScore(t, s, T);
-
-    std::cout << "Maximum Score: " << result << std::endl;
-
-    return 0;
-}
-```
-
-5.排序然后从最大的开始选，如果比他小的差值成立里就相乘
-
-在这个示例中，maxProductDifference 函数接受一个整数向量 nums，首先对它进行降序排序，然后选取最大的两个元素和最小的两个元素，计算它们的差值的乘积。这是一个贪心的选择，但请注意，贪心算法并不总是能够提供全局最优解。在一些情况下，需要证明算法的正确性。
-```cpp
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
-int maxProductDifference(std::vector<int>& nums) {
-    // 先排序
-    std::sort(nums.begin(), nums.end(), std::greater<int>());
-
-    // 选取最大的两个元素和最小的两个元素
-    int max1 = nums[0];
-    int max2 = nums[1];
-    int min1 = nums[nums.size() - 1];
-    int min2 = nums[nums.size() - 2];
-
-    // 计算差值的乘积
-    int result = (max1 * max2) - (min1 * min2);
-
-    return result;
-}
-
-int main() {
-    std::vector<int> nums = {4, 2, 5, 9, 7, 4, 8};
-    
-    int result = maxProductDifference(nums);
-
-    std::cout << "Maximum Product Difference: " << result << std::endl;
-
-    return 0;
-}
-```
-
-### LC1064 不动点
-
-给定已经按升序排列、由不同整数组成的数组 A，返回满足 A[i] == i 的最小索引 i。
-如果不存在这样的 i，返回 -1。
+```py
 
 ```
-示例 1：
-输入：[-10,-5,0,3,7]
-输出：3
-解释：
-对于给定的数组，A[0] = -10，A[1] = -5，A[2] = 0，A[3] = 3，因此输出为 3 。
 
-示例 2：
-输入：[0,2,5,8,17]
-输出：0
-示例：
-A[0] = 0，因此输出为 0 。
+### 算法2
+小红有一个nxm大小的矩阵，阵第i行第j列的元素为ixj，小红想知道矩阵中第k小的元素是多少\
+输入描述:第行三个整数n,m,k;1<=n,m < 10^5,1<=k<=n x m\
+输出描述:输出一个整数表示答案\
+输入3 3 4,输出3\
+矩阵为\
+1 2 3\
+2 4 6\
+3 6 9
 
-示例 3：
-输入：[-10,-5,3,4,7,9]
-输出：-1
-解释： 
-不存在这样的 i 满足 A[i] = i，因此输出为 -1 。
- 
-提示：
-1 <= A.length < 10^4
--10^9 <= A[i] <= 10^9
-```
-
-```cpp
-class Solution {
-public:
-    int fixedPoint(vector<int>& A) {
-    	for(int i = 0; i < A.size(); ++i)
-    	{
-    		if(A[i] == i)
-    			return i;
-    	}
-    	return -1;
-    }
-};
-```
-
-### LC9.回文数
-给你一个整数 x ，如果 x 是一个回文整数，返回 true ；否则，返回 false 。
-
-回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
-
-例如，121 是回文，而 123 不是。
+```py
 
 ```
-示例 1：
 
-输入：x = 121
-输出：true
-示例 2：
+### 算法3
+小Z在数星星，一片天空可用一个大小为nxm的矩阵表示，其中0表示空白，1表示有光源，定义一颗星星为如下3x3矩阵\
+010\
+111\
+101\
+注意，上面矩阵中的空自也不能有光源(即"0"不能为"1")，光源处也不能有空白(即"1"不能为"0")，否则不构成一颗星星。帮他数出天空中的星星颗数(即完全相同的矩阵个数)\
+输入描述：\
+第一行两个整数，表示n,m。\
+后接n行，每行m列，表示天空\
+数据保证1<=n,m<=500。\
+输出描述:输出一行表示星星颗数\
+输入\
+4 4\
+0101\
+1110\
+1011\
+1101\
+输出1
 
-输入：x = -121
-输出：false
-解释：从左向右读, 为 -121 。 从右向左读, 为 121- 。因此它不是一个回文数。
-示例 3：
+```py
 
-输入：x = 10
-输出：false
-解释：从右向左读, 为 01 。因此它不是一个回文数。
- 
-提示：
-
--231 <= x <= 231 - 1
-```
-
-```cpp
-class Solution {
-public:
-    bool isPalindrome(int x) {
-        if (x < 0 || (x % 10 == 0 && x != 0)) {
-            return false;
-        }
-        int revertedNumber = 0;
-        while (x > revertedNumber) {
-            revertedNumber = revertedNumber * 10 + x % 10;
-            x /= 10;
-        }
-        return x == revertedNumber || x == revertedNumber / 10;
-    }
-};
-```
-
-### LC152.乘积最大子数组
-给你一个整数数组 nums ，请你找出数组中乘积最大的连续子数组（该子数组中至少包含一个数字），并返回该子数组所对应的乘积。
-
-测试用例的答案是一个 32-位 整数。
-
-子数组 是数组的连续子序列。
-
-```
-示例 1:
-
-输入: nums = [2,3,-2,4]
-输出: 6
-解释: 子数组 [2,3] 有最大乘积 6。
-示例 2:
-
-输入: nums = [-2,0,-1]
-输出: 0
-解释: 结果不能为 2, 因为 [-2,-1] 不是子数组。
- 
-
-提示:
-
-1 <= nums.length <= 2 * 104
--10 <= nums[i] <= 10
-nums 的任何前缀或后缀的乘积都 保证 是一个 32-位 整数
-```
-
-```cpp
-class Solution {
-public:
-    int maxProduct(vector<int>& nums) {
-        int maxF = nums[0], minF = nums[0], ans = nums[0];
-        for (int i = 1; i < nums.size(); ++i) {
-            int mx = maxF, mn = minF;
-            maxF = max(mx * nums[i], max(nums[i], mn * nums[i]));
-            minF = min(mn * nums[i], min(nums[i], mx * nums[i]));
-            ans = max(maxF, ans);
-        }
-        return ans;
-    }
-};
-```
-
-### LC215.数组中的第K个最大元素
-给定整数数组 nums 和整数 k，请返回数组中第 k 个最大的元素。
-
-请注意，你需要找的是数组排序后的第 k 个最大的元素，而不是第 k 个不同的元素。
-
-你必须设计并实现时间复杂度为 O(n) 的算法解决此问题。
-
-```
-示例 1:
-
-输入: [3,2,1,5,6,4], k = 2
-输出: 5
-示例 2:
-
-输入: [3,2,3,1,2,4,5,5,6], k = 4
-输出: 4
- 
-
-提示：
-
-1 <= k <= nums.length <= 105
--104 <= nums[i] <= 104
-```
-
-```cpp
-class Solution {
-public:
-    int quickselect(vector<int> &nums, int l, int r, int k) {
-        if (l == r)
-            return nums[k];
-        int partition = nums[l], i = l - 1, j = r + 1;
-        while (i < j) {
-            do i++; while (nums[i] < partition);
-            do j--; while (nums[j] > partition);
-            if (i < j)
-                swap(nums[i], nums[j]);
-        }
-        if (k <= j)return quickselect(nums, l, j, k);
-        else return quickselect(nums, j + 1, r, k);
-    }
-
-    int findKthLargest(vector<int> &nums, int k) {
-        int n = nums.size();
-        return quickselect(nums, 0, n - 1, n - k);
-    }
-};
 ```
