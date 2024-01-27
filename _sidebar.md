@@ -3,9 +3,7 @@
 <img src=https://pic.xhcheats.cn/assets/2023/12/24/023626.png />
 </div>
 
-* [Wiki主页](README.md)
-
-* [下载压缩包解压教程](windows/jieya.md)
+* [**Wiki主页**](README.md)
 
 * C/C++
   * C++ Primer 5th
@@ -141,6 +139,7 @@
   * [Linux Note](linux/VMware/linuxnote.md)
 
 * Windows
+  * [下载压缩包解压教程](windows/jieya.md)
   * [键盘键值表](windows/jianpankey.md)
   * [Microsoft365激活](windows/office.md)
   * [win修改中文用户名](windows/yonghuming.md)

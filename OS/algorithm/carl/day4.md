@@ -7,6 +7,40 @@
 
 
 ```py
+from typing import Optional
+
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+
+class Solution:
+    def swapPairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        dummy_head = ListNode(next=head)
+        cur = dummy_head
+        while cur.next.next and cur.next:
+            tmp = cur.next
+            tmp1 = cur.next.next.next
+            cur.next = cur.next.next
+            cur.next.next = tmp
+            tmp.next = tmp1
+            cur = cur.next.next
+        return dummy_head.next
+
+
+def main():
+    s = Solution()
+    head = ListNode(1, ListNode(2, ListNode(6, ListNode(3, ListNode(4, ListNode(5, ListNode(6)))))))
+    res = s.swapPairs(head)
+    while res:
+        print(res.val, end=" ")
+        res = res.next
+
+
+if __name__ == "__main__":
+    main()
 
 ```
 
