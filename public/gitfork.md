@@ -76,9 +76,9 @@ https://github.com/xhcherry/GTA5-Stand-LuaAIO
 
 ![](https://pic.xhcheats.cn/assets/2023/12/24/011725.png)
 
-如下图拉取fork成功
+如下图红框中为“Stand”则是拉取fork成功，若不是这个名字就进入settings往下翻点击delete this repository删除，然后返回“拉取Stand lua合集”重新拉取
 
-![](https://pic.xhcheats.cn/assets/2023/12/24/011739.png)
+![](https://pic.xhcheats.cn/assets/2024/01/29/182711.png)
 
 接下来下载GitHub客户端：https://desktop.github.com/
 

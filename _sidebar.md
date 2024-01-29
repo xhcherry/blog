@@ -163,6 +163,7 @@
     * [day2 数组](OS/algorithm/carl/day2.md)
     * [day3 链表](OS/algorithm/carl/day3.md)
     * [day4 链表](OS/algorithm/carl/day4.md)
+    * [day6 哈希表](OS/algorithm/carl/day6.md)
   * 操作系统算法
     * [银行家算法](OS/algorithm/banker.md)
     * [页面置换算法](OS/algorithm/pagedisplace.md)
