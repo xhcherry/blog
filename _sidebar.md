@@ -33,7 +33,7 @@
     * [机房预约系统](CPP/heima/七/机房预约系统.md)
   * [C/C++ Note](CPP/note.md)
 
-* STM32
+* STM32(C8T6)
   * [1-1 STM32介绍、软件安装](stm32/1intro.md)
   * [2-1 标准库新建工程](stm32/2newproject.md)
   * [3-1 GPIO结构与输出](stm32/3GPIOoutput.md)
