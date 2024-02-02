@@ -167,6 +167,7 @@
     * [day7 哈希表](OS/algorithm/carl/day7.md)
     * [day8 字符串](OS/algorithm/carl/day8.md)
     * [day9 字符串](OS/algorithm/carl/day9.md)
+    * [day10 栈与队列](OS/algorithm/carl/day10.md)
   * 操作系统算法
     * [银行家算法](OS/algorithm/banker.md)
     * [页面置换算法](OS/algorithm/pagedisplace.md)
