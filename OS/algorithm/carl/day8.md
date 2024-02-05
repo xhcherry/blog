@@ -2,6 +2,8 @@
 
 ## 344.反转字符串
 
+[题目链接](https://leetcode-cn.com/problems/reverse-string/)
+
 ```py
 from typing import List
 
@@ -25,6 +27,8 @@ if __name__ == "__main__":
 ```
 
 ## 541. 反转字符串II
+
+[题目链接](https://leetcode-cn.com/problems/reverse-string-ii/)
 
 ```py
 class Solution:
@@ -55,6 +59,8 @@ if __name__ == "__main__":
 
 ## 卡码网54.替换数字
 
+[题目链接](https://kamacoder.com/problempage.php?pid=1064)
+
 ```py
 class Solution:
     def replaceNumber(self, s: str) -> str:
@@ -77,6 +83,8 @@ if __name__ == "__main__":
 ```
 
 ## 151.翻转字符串里的单词
+
+[题目链接](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
 
 ```py
 class Solution:
@@ -105,6 +113,8 @@ if __name__ == "__main__":
 ```
 
 ## 卡码网55.右旋转字符串
+
+[题目链接](https://kamacoder.com/problempage.php?pid=1065)
 
 ```py
 class Solution:

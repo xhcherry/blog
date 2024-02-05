@@ -2,6 +2,8 @@
 
 ## 232.用栈实现队列
 
+[题目链接](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
+
 ```py
 class MyQueue:
 
@@ -62,6 +64,8 @@ if __name__ == "__main__":
 ```
 
 ## 225.用队列实现栈
+
+[题目链接](https://leetcode-cn.com/problems/implement-stack-using-queues/)
 
 ```py
 class MyStack:

@@ -2,6 +2,8 @@
 
 ## 28.实现 strStr()
 
+[题目链接](https://leetcode-cn.com/problems/implement-strstr/)
+
 ```py
 class Solution:
     def getNext(self, next, s):
@@ -42,6 +44,8 @@ main()
 ```
 
 ## 459.重复的子字符串
+
+[题目链接](https://leetcode-cn.com/problems/repeated-substring-pattern/)
 
 ```py
 class Solution:
