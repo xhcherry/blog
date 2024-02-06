@@ -4,7 +4,16 @@
 </div>
 
 * [**Wiki主页**](README.md)
-
+* 软件测试
+  * 软件测试基础
+  * Linux和数据库
+  * 功能测试
+  * python基础
+  * 接口测试
+  * 小程序项目
+  * 性能测试
+  * 金融项目
+  * UI自动化测试
 * C/C++
   * C++ Primer 5th
     * [一.开始](CPP/Primer/第1章.md)
@@ -150,14 +159,7 @@
   * [idea+mysql配置](windows/idea.md)
   * [无法访问GitHub解决](public/changehost.md)
 
-* public
-  * [github fork与upstream](public/upstream.md)
-  * [git配置与分支和源同步](public/gitfork.md)
-  * [docsify配置](public/docsify.md)
-  * [VSCode SSH免密](public/vscodessh.md)
-  * [msys2安装与更新](public/msys2install.md)
-
-* 数据结构与算法
+* 数据结构与算法(Python)
   * 代码随想录训练营
     * [day1 数组](OS/algorithm/carl/day1.md)
     * [day2 数组](OS/algorithm/carl/day2.md)
@@ -175,3 +177,10 @@
     * [磁盘调度算法](OS/algorithm/Disk_scheduling.md)
   * [笔试](OS/algorithm/bs.md)
   * [面试记录](public/ms.md)
+
+* public
+  * [github fork与upstream](public/upstream.md)
+  * [git配置与分支和源同步](public/gitfork.md)
+  * [docsify配置](public/docsify.md)
+  * [VSCode SSH免密](public/vscodessh.md)
+  * [msys2安装与更新](public/msys2install.md)
