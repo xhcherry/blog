@@ -171,6 +171,10 @@
     * [day9 字符串](OS/algorithm/carl/day9.md)
     * [day10 栈与队列](OS/algorithm/carl/day10.md)
     * [day11 栈与队列](OS/algorithm/carl/day11.md)
+    * [day13 栈与队列](OS/algorithm/carl/day13.md)
+    * [day14 二叉树](OS/algorithm/carl/day14.md)
+    * [day15 二叉树](OS/algorithm/carl/day15.md)
+    * [day16 二叉树](OS/algorithm/carl/day16.md)
   * 操作系统算法
     * [银行家算法](OS/algorithm/banker.md)
     * [页面置换算法](OS/algorithm/pagedisplace.md)
