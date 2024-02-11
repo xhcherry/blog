@@ -161,6 +161,20 @@ class Solution:
                     st.append(node.left)
                 st.append(node) #中
                 st.append(None)
+                
+                # if node.right: #右
+                #     st.append(node.right)
+                # st.append(node) #中
+                # st.append(None)
+                # if node.left: #左
+                #     st.append(node.left)
+
+                # st.append(node) #中
+                # st.append(None)
+                # if node.right: #右
+                #     st.append(node.right)
+                # if node.left: #左
+                #     st.append(node.left)
             else:
                 node = st.pop()
                 result.append(node.val)

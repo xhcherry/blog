@@ -1,6 +1,8 @@
 # 使用git拉取分支
 
-## Git环境配置
+一步一步按照教程走即可
+
+## Lua仓库配置git环境
 
 [点此下载git安装环境软件](https://github.com/git-for-windows/git/releases/download/v2.40.1.windows.1/Git-2.40.1-64-bit.exe)
 
@@ -12,7 +14,9 @@
 
 ![](https://pic.xhcheats.cn/assets/2023/12/24/011517.png)
 
-接下来进入GitHub官网：https://github.com/
+## 注册Github账号(已有账号就跳过)
+
+进入GitHub官网：https://github.com/
 
 **注意，要是你无法访问GitHub，[请点此处解决办法](https://xhcheats.cn/#/public/changehost)**
 
@@ -60,7 +64,7 @@
 
 ![](https://pic.xhcheats.cn/assets/2023/12/24/011644.png)
 
-## 拉取Stand lua合集
+## 拉取Stand lua合集仓库
 
 接下来点击下方链接进入stand的lua库
 
@@ -76,9 +80,11 @@ https://github.com/xhcherry/GTA5-Stand-LuaAIO
 
 ![](https://pic.xhcheats.cn/assets/2023/12/24/011725.png)
 
-如下图红框中为“Stand”则是拉取fork成功，若不是这个名字就进入settings往下翻点击delete this repository删除，然后返回“拉取Stand lua合集”重新拉取
+如下图红框中为“Stand”则是拉取fork成功，若不是这个名字就进入settings往下翻点击delete this repository删除，然后返回“拉取Stand lua合集仓库”重新拉取
 
 ![](https://pic.xhcheats.cn/assets/2024/01/29/182711.png)
+
+## Github客户端安装
 
 接下来下载GitHub客户端：https://desktop.github.com/
 
@@ -110,9 +116,9 @@ https://github.com/xhcherry/GTA5-Stand-LuaAIO
 
 ![](https://pic.xhcheats.cn/assets/2023/12/24/011900.png)
 
-然后会进入下图选择路径的框框，在这里选择到Roaming文件夹（此文件夹在c盘\用户\你的用户名(每个人不一样)\AppData\Roaming）；可能一些人看不见appdata文件夹，这是被隐藏了，在文件夹窗口上面的**查看**点击**显示**再点击**显示隐藏的项目**即可
+然后会进入下图选择路径的框框，在这里选择到Roaming文件夹（此文件夹在C盘\用户\你的用户名(每个人不一样)\AppData\Roaming）；可能一些人看不见appdata文件夹，这是被隐藏了，在文件夹窗口上面的**查看**点击**显示**再点击**显示隐藏的项目**即可
 
-**切记注意**此时的roaming里面不能有stand文件夹，你可以把stand文件夹备份一下或者剪切到别的地方（例如桌面，之后还需要移回来）
+**切记注意**此时的roaming里面不能有Stand文件夹，你可以把Stand文件夹备份一下或者剪切到别的地方（例如桌面，之后还需要移回来）
 
 ![](https://pic.xhcheats.cn/assets/2023/12/24/012155.png)
 
@@ -138,7 +144,11 @@ https://github.com/xhcherry/GTA5-Stand-LuaAIO
 
 日后lua更新了之后（更新会在群中说，或者关注GitHub库，或者看discord，下图可查看是否最新）
 
-在浏览器中进入[GitHub](https://github.com/)自己的网站，进入fork后自己的库
+在浏览器中进入[GitHub](https://github.com/)
+
+点击右上角头像，点击your repositories
+
+然后点击第一个Stand仓库就会进入自己拉取的仓库
 
 如下图点击sync fork，然后点击update breach即可更新
 
