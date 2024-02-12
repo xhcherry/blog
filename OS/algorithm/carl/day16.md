@@ -49,6 +49,49 @@ main()
 [题目链接](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
 
 ```py
+from typing import Optional
+
+
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+
+class Solution:
+    def minDepth(self, root: Optional[TreeNode]) -> int:
+        return self.getDepth(root)
+
+    def getDepth(self, node):
+        if node is None:
+            return 0
+        leftDepth = self.getDepth(node.left)  # 左
+        rightDepth = self.getDepth(node.right)  # 右
+
+        # 当一个左子树为空，右不为空，这时并不是最低点
+        if node.left is None and node.right is not None:
+            return 1 + rightDepth
+
+        # 当一个右子树为空，左不为空，这时并不是最低点
+        if node.left is not None and node.right is None:
+            return 1 + leftDepth
+
+        result = 1 + min(leftDepth, rightDepth)
+        return result
+
+
+def main():
+    root = TreeNode(1)
+    root.left = TreeNode(2)
+    root.right = TreeNode(3)
+    root.left.left = TreeNode(4)
+    root.left.right = TreeNode(5)
+    s = Solution()
+    print(s.minDepth(root))
+
+
+main()
 
 ```
 
@@ -57,5 +100,39 @@ main()
 [题目链接](https://leetcode-cn.com/problems/count-complete-tree-nodes/)
 
 ```py
+from typing import Optional
+
+
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+
+class Solution:
+    def getNodesNum(self, cur):
+        if not cur:
+            return 0
+        leftNum = self.getNodesNum(cur.left)  # 左
+        rightNum = self.getNodesNum(cur.right)  # 右
+        treeNum = leftNum + rightNum + 1  # 中
+        return treeNum
+
+    def countNodes(self, root: Optional[TreeNode]) -> int:
+        return self.getNodesNum(root)
+
+
+def main():
+    root = TreeNode(1)
+    root.left = TreeNode(2)
+    root.right = TreeNode(3)
+    root.left.left = TreeNode(4)
+    root.left.right = TreeNode(5)
+    s = Solution()
+    print(s.countNodes(root))
+
+
+main()
 
 ```
