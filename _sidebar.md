@@ -6,6 +6,9 @@
 * [**Wiki主页**](README.md)
 * 软件测试
   * 软件测试基础
+    * [1.软测基础介绍](software/1testbasic/day1.md)
+    * [2.测试用例设计](software/1testbasic/day2.md)
+    * [3.执行用例](software/1testbasic/day3.md)
   * Linux和数据库
   * 功能测试
   * python基础
