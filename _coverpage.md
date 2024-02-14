@@ -13,6 +13,6 @@
     | 🚴‍♂️ 本站总访客数：<span id="busuanzi_value_site_uv"></span> 人
 </span>
 
-[游戏MOD专栏](https://docs.xhcheats.cn/#) [本站备用点](https://wiki.xhcheats.cn/#/) [进入本站主页](README.md)
+[游戏MOD中心专栏](https://docs.xhcheats.cn/#) [进入本站主页](README.md)
 
 
