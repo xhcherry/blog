@@ -1,4 +1,4 @@
-![](https://pic.xhcheats.cn/assets/2023/12/24/023626.png)
+![](https://pic.xhcheats.cn/assets/2024/02/16/143641.png)
 
 # [**Xherry WIKI**](?id=Xherry)
 
