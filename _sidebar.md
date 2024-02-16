@@ -180,6 +180,7 @@
     * [day16 二叉树](OS/algorithm/carl/day16.md)
     * [day17 二叉树](OS/algorithm/carl/day17.md)
     * [day18 二叉树](OS/algorithm/carl/day18.md)
+    * [day19 二叉树](OS/algorithm/carl/day19.md)
   * 操作系统算法
     * [银行家算法](OS/algorithm/banker.md)
     * [页面置换算法](OS/algorithm/pagedisplace.md)
