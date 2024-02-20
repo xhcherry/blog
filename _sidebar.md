@@ -19,6 +19,7 @@
   * 性能测试
   * 金融项目
   * UI自动化测试
+  * [软件测试笔记](software/note.md)
 * C/C++
   * C++ Primer 5th
     * [一.开始](CPP/Primer/第1章.md)
