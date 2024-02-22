@@ -2,9 +2,9 @@
 
 # [**Xherry WIKI**](?id=Xherry)
 
-**Xherry's blog,涉及C/C++|STM32|Linux和各种好玩小工具**
+**Xherry's blog,本站涉及 软件测试|Python|C/C++|STM32|Linux 等学习记录**
 
-**游戏MOD针对RockStar旗下的开放世界游戏**
+**游戏MOD中心针对RockStar旗下的开放世界游戏,拥有全国首创GTA5 Stand LUA仓库：[Github链接](https://github.com/xhcherry/GTA5-Stand-LuaAIO)**
 
 <span id="busuanzi_container_site_pv" style='display:none'>
     👀 本站总访问量：<span id="busuanzi_value_site_pv"></span> 次
