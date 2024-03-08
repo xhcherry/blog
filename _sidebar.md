@@ -164,6 +164,8 @@
   * [win安装SQL2019](windows/sql.md)
   * [idea+mysql配置](windows/idea.md)
   * [无法访问GitHub解决](public/changehost.md)
+  * [笔试](OS/algorithm/bs.md)
+  * [面试记录](public/ms.md)
 
 * 数据结构与算法(Python)
   * 代码随想录训练营
@@ -195,8 +197,6 @@
     * [银行家算法](OS/algorithm/banker.md)
     * [页面置换算法](OS/algorithm/pagedisplace.md)
     * [磁盘调度算法](OS/algorithm/Disk_scheduling.md)
-  * [笔试](OS/algorithm/bs.md)
-  * [面试记录](public/ms.md)
 
 * public
   * [github fork与upstream](public/upstream.md)
