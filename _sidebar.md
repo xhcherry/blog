@@ -19,6 +19,14 @@
     * [5.连接查询，自关联](software/2linuxsql/day5.md)
     * [6.TPShop数据库验证](software/2linuxsql/day6.md)
   * 功能测试
+    * [1.测试流程的应用](software/3functest/day1.md)
+    * [2.web项目业务测试](software/3functest/day2.md)
+    * [3.web项目抢购测试](software/3functest/day3.md)
+    * [4.web项目购物车](software/3functest/day4.md)
+    * [5.web抓包](software/3functest/day5.md)
+    * [6.接口测试](software/3functest/day6.md)
+    * [7.接口测试](software/3functest/day7.md)
+    * [8.接口测试](software/3functest/day8.md)
   * python基础
   * 接口测试
   * 小程序项目
