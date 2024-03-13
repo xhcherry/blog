@@ -12,12 +12,12 @@
     * [4.HTML](software/1testbasic/day4.md)
     * [5.web平台测试](software/1testbasic/day5.md)
   * Linux和数据库
-    * [1.Linux概述](software/2linuxsql/day1.md)
-    * [2.Linux基础](software/2linuxsql/day2.md)
-    * [3.Linux文件管理](software/2linuxsql/day3.md)
-    * [4.Linux权限管理](software/2linuxsql/day4.md)
-    * [5.Linux用户和组管理](software/2linuxsql/day5.md)
-    * [6.Linux软件安装](software/2linuxsql/day6.md)
+    * [1.Linux常用命令](software/2linuxsql/day1.md)
+    * [2.Linux系统命令](software/2linuxsql/day2.md)
+    * [3.SQL语句](software/2linuxsql/day3.md)
+    * [4.SQl更新|查询](software/2linuxsql/day4.md)
+    * [5.连接查询，自关联](software/2linuxsql/day5.md)
+    * [6.TPShop数据库验证](software/2linuxsql/day6.md)
   * 功能测试
   * python基础
   * 接口测试
