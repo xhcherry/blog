@@ -207,6 +207,7 @@
     * [day25 回溯算法](OS/algorithm/carl/day25.md)
     * [day26 回溯算法](OS/algorithm/carl/day26.md)
     * [day27 回溯算法](OS/algorithm/carl/day27.md)
+  * [python八大好用的内置函数](OS/algorithm/pythonnote.md)
   * 操作系统算法
     * [银行家算法](OS/algorithm/banker.md)
     * [页面置换算法](OS/algorithm/pagedisplace.md)
