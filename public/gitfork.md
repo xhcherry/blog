@@ -6,7 +6,7 @@
 
 [点此下载git安装环境软件](https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe)
 
-下载不动的就翻墙，建议使用加速GitHub即可[steam++(Watt Toolkit)下载](https://steampp.net/download)
+下载不动的就翻墙，建议使用steam++加速GitHub即可 [下载steam++(Watt Toolkit)](https://steampp.net/download)
 
 下载完成后直接打开，进入如下图安装步骤，然后就一直next就行了，什么都不用管，全部默认，全部next
 
