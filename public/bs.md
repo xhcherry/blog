@@ -538,13 +538,803 @@ def threeSum(nums):
 
 ## 360测开
 
+1 多选题：关于自动化测试的目的，下面表述正确的是(bcd)
+```
+提高交付能力
+提高测试效率
+提高准确性、稳定性
+模拟人工测试无法实现的复杂场景
+```
+
+2 单选题：下面哪个操作是selenium不支持的d
+```
+截图
+页面跳转
+点击按钮
+setCookie
+```
+
+3 多选题:关于自动化测试的特点，以下哪些描述是正确的(bd)
+```
+能够覆盖软件所有功能
+准确度、精确度高
+自动化测试可以取代手工测试
+速度快、效率高
+```
+
+4 单选题：DataOutputStream的直接父类为(c)
+ObjectOutputStream
+FileOutputStream
+FilterOutputStream
+OutputStream
+
+5 单选题：下列关于泛型类的说法，正确的是a
+```
+方法传递时不必进行类型转换
+不能直接使用类型参数代替参数类型
+不能直接使用类型参数代替返回值类型
+实例化泛型类时可以用boolean型替换类型参数
+```
+
+6 单选题:有下列类定义
+```cpp
+class T{
+    int t1;
+protected:
+    int t2;
+public:
+    void show(){}
+};
+class D:public T{
+    int d1;
+protected:
+    int d2;
+public:
+    void show(){}
+};
+派生类D中的public成员个数是(d)
+3
+2
+4
+1
+```
+
+7 单选题：下列程序的运行结果是(d)
+```cpp
+class T{
+public:
+    T(int i=0):x(i){ c++;show();}
+    ~T(){c--;show();}
+    static void show(){cout<<c;}
+private:
+    static int c;
+    int x;
+};
+int T::c=0;
+int main(){
+    T* i= new T[3];
+    T* j= new T(8);
+    delete []i;
+    delete j;
+    return 0;
+}
+
+无输出结果
+1234567891011109876543210
+1210
+12343210
+```
+
+8 单选题:下列(c)是istream类的对象
+```
+clog
+cerr
+cin
+cout
+```
+
+9 存在如下代码，访问http://serverName/index.php/Home/lndex/index时输出结果为(c)
+```php
+<?php
+    namespace Home\Controller;
+    use Think\Controller;
+    class IndexController extends Controller{
+        public function_before_index(){
+            echo 'before<br/>';
+        }
+        public function index(){
+            echo 'index<br/>';
+        }
+        public function_after_index(){
+            echo 'after<br/>';
+        }
+    }
+?>
+
+index
+
+before
+index
+
+before
+index
+after
+
+before
+after
+```
+
+10 单选题：ANR通常在下面哪种情况下会发生(c)
+```
+当应用程序接收到新的通知时
+当应用程序收到网络请求时
+当应用程序运行时间过长而没有响应用户操作时
+当应用程序进行导航操作时
+```
+
+11 单选题：关于 Android 的 ContentProvider 用途描述正确的是(a)
+```
+ContentProvider 用于管理应用程序的数据存储和共享,
+ContentProvider 用于加载和更新应用程序的布局文件。
+ContentProvider 用于处理应用程序的用户界面事件。
+ContentProvider 用于发送和接收网络请求
+```
+
+12 单选题:下列关于Android网络编程框架的说法中，正确的是(a)
+```
+Retrofit是一个用于Android网络请求的开源框架，底层基于OkHttp实现。
+Android网络编程框架只能用于同步的网络操作，不能进行异步操作。Volley是Android官方推荐的网络编程框架，具有高性能和稳定性,
+Android网络编程框架不能处理网络请求的结果，需要手动解析数据
+```
+
+13 单选题：为IPv6数据包提供数据完整性、数据验证、数据机密性和重放保护服务的协议是(d)
+```
+SHA
+SSL
+DAS
+IPSec
+```
+
+14 单选题:下面(b)用于动态多态的实现
+```
+重载
+虚函数
+隐藏
+模板
+```
+15 单选题:代码输出（b）
+```cpp
+#include <iostream>
+using namespace std;
+template <class T>
+void fun(T temp){
+    cout<<temp<<endl;
+    cout << "A" << endl;
+}
+void fun(int temp){
+    cout << temp << endl;
+    cout << "B" << endl;
+}
+int main(){
+    fun(30);
+    return 0;
+}
+
+30
+A
+
+30
+B
+
+30
+A
+B
+
+30
+B
+A
+```
+
+16 单选题:下面说法正确的是(a)
+```
+int *p1 = new int[5];
+int *p2 = new int[5]();
+p1申请的空间里的值是随机值，p2申请的空间里的值已经初始化
+p1和p2申请的空间里面的值都是随机值
+p1申请的空间里的值已经初始化，p2申请的空间里的值是随机值
+p1和p2申请的空间里的值都已经初始化
+```
+
+17 在电子商务中https协议进行数据加密传输,创建一次性会话密钥的节点是(d)
+```
+switch
+router
+client
+server
+```
+18 单选题：在数据库中有两张表:商品表(商品号，商品名，商品类别，成本价)和销售表(商品号，销售时间，销售数量，销售单价)。用户黑统计指定年份每类商品的销售总数是和销售总利润，要求只列出销售总利润最多的前三类商品的商品类别、销售总数量和销售总利润。为了完成该统计操作，以下存储过程PSUM正确的语句是:(a)
+```sql
+PROCEDURE `P_SUM`
+(IN `year` int)
+BEGIN
+SELECT 商品类别，SUM(销售数量) AS 销售总数量,
+SUM(销售数量*(销售单价-成本价))AS 销售总利润
+FROM 商品表 JOIN 销售表 ON 商品表,商品号=销售表,商品号
+WHERE 销售时间 =year GROUP BY 商品类别 ORDER BY 销售总利润 DESC limit 0,3;
+END
+
+PROCEDURE `P_SUM`
+BEGIN
+SELECT 商品类别,SUM(销售数量) AS 销售总数量,
+SUM(销售数量*(销售单价-成本价))AS 销售总利润
+FROM 商品表 JOIN 销售表 ON 商品表,商品号=销售表,商品号
+WHERE 销售时间 =year GROUP BY 商品类别 ORDER BY 销售总利润 DESC limit 0,3;
+END
+
+PROCEDURE `P_SUM`
+(IN `year` int)
+BEGIN
+SELECT 商品类别，SUM(销售数量)AS 销售总数量,
+SUM(销售数量*(销售单价-成本价))AS 销售总利润
+FROM 商品表 JOIN 销售表 ON 商品表,商品号=销售表,商品号
+WHERE 销售时问 =year GROUP BY 商品类别 ORDER BY 销售总利润 limit 0.3;
+END
+
+PROCEDURE `P_SUM`
+(IN `year` int)
+BEGIN
+SELECT 商品类别，SUM(销售数量)AS 销售总数量,
+SUM(销售数量*(销售单价-成本价))AS 销售总利润
+FROM 商品表 JOIN 销售表 ON 商品表,商品号=销售表,商品号
+WHERE 销售时问 =year ORDER BY 销售总利润 DESC limit 0,3;
+END
+```
+
+19 单选题:以下关于离线存储说法不正确的是b
+```
+服务器对离线资源更新后必须更新manifest文件新资源才能被浏览器重新下载
+站点离线存储的容量限制是5K
+当更新资源失败，浏览器依旧采用原来的资源
+离线的情况下，浏览器会直接使用离线存储的资源
+```
+
+20 单选题:使用二维数组存放无向图(无自环)，若二维数组的行数、列数、非零元素个数分别为4、4、8，则该无向图的顶点数和边数分别是d
+```
+8和8
+8和4
+4和8
+4和4
+```
+
+21 单选题:Linux系统中/etc/fstab文件每一行由六列组成,列的分隔符为空格,现査看/etc/fstab每行记录是否完整 b
+```
+awk 'NF' /etc/fstab
+awk '{print NF}' /etc/fstab
+awk '{print NR}' /etc/fstab
+awk '{print FS}' /etc/fstab
+```
+
+22 单选题：遍历方式可以得到一个图的最短路径 b
+```
+中序遍历
+BFS
+后序遍历
+DFS
+```
+
+23 下列有关图的生成树说法错误的是(b)
+```
+非连通图的生成树可能不唯一
+在生成树中加一条边一定构成回路
+生成树中任意两顶点间的路径是不唯一的
+图的生成树包含图的全部顶点
+```
+
+24 单选题:下面代码执行后的结果为(a)
+```php
+<?php
+$a1=array("a"= >"red","b"=>"green","c"=>"blue","d"=>"yellow");$a2=array("e"= >"red","f"= >"green","g"=>"blue");
+$result=array_diff($a1,$a2);
+print_r($result);
+?>
+
+Array{
+    [d] => yellow
+}
+
+Array{
+    [a]=> red
+    [b] => green
+    [c] => blue
+    [d] => yellow
+}
+
+Array{
+    [e] => red
+    [f] => green
+    [g] => blue
+}
+
+Array{
+    [a] => red
+    [b]=> green
+    [c]=> blue
+}
+```
+
+25 单选题:ThinkPHP URL的默认模式为(c)
+```
+普通模式
+REWRITE
+PATHINFO
+兼容模式
+```
+
+26 单选题:vim编辑器可以对shell程序进行加密,vim加密指定文件时使用的参数是(b)
+```
+-o
+-x
+-s
+-e
+```
+
+27 单选题:一个学生表(student)，包含学号(id)，姓名(name)，年龄(age)，性别(gender)4个列;
+一个课程表(course)，包含课程号(id)，课程名(name)，教师编号(t id);
+一个成绩表(scores)，包含学号(s id)，成绩(score)，课程号(cid);
+一个教师表(teacher)，包含教师编号(id)教师姓名(name)。
+如果要删除student表中id为10的学生记录，同时删除scores表中的该学生信息，下面SQL语句错误的是:(a)
+```sql
+DELETE S, SC
+FROM student s
+INNER JOlN scores sc ON s.id = sc.s_id
+WHERE s.id = 10;
+
+DELETE FROM student s
+USING scores sc
+WHERE s.id = sc.s_id AND s.id = 10;
+
+DELETE FROM s, sc
+USING student s,scores sc
+WHERE s.id = sc.s_id
+AND s.id = 10;
+
+DELETE S, SC
+FROM student s
+JOlN scores sc ON s.id = sc.s_id
+WHERE s.id = 10;
+```
+
+28 单选题:创建订单表(orders)，记录了订单编号、订单日期和订单金额等信息，SQL语句如下()
+```sql
+CREATE TABLE orders(
+order_id INT,
+order_date DATE,
+amount DECIMAL(10, 2)
+);
+INSERT INTO orders VALUES
+(1,'2023-01-01'.100.00),
+(2,'2023-01-02',200.00),
+(3,'2023-02-01'150.00),
+(4,'2023-02-02'250.00),
+(5,'2023-03-01'300.00),
+(6,'2023-03-02'350.00);
+若要查询2023年3月的所有订单的订单金额总和和平均值。下面SQL语句不正确的是:(a)
+SELECT sum(amount),avg(amount)
+FROM orders
+WHERE order_date ='2023-03-01'and order_date ='2023-03-02';
+
+SELECT sum(amount),avg(amount)
+FROM orders
+WHERE order_date ='2023-03-01'or order_date ='2023-03-02';
+
+SELECT sum(amount),avg(amount)
+FROM orders
+WHERE order_date >='2023-03' and order_date <'2023-04';
+
+SELECT sum(amount),avg(amount)
+FROM orders
+WHERE DATE_FORMAT(order_date,'%Y-%m')='2023-03';
+```
+
+
+29 单选题:Fragment通过add或者replace的添加Fragment，对Fragment的生命周期影响描述错误的是d
+```
+如果当前 Activity 同一个布局id存在了Fragment,replace传递的Fragment实例和已经存在的Fragment实例不一致，旧Fragment生命周期执行 onPause ->onStop ->onDestroyView ->onDestroy->onDetach，新fragment走正常生命周期
+
+如果当前 Activity 同一个布局id还未添加Fragment，add和replace操作相同，两者生命周期变化是onAttach->onCreate->onCreateView->onActivityCreated->onStart-onResume
+
+如果当前 Activity 同一个布局id存在了Fragment，add传递的Fragment实例和已经存在的Fragment实例不一致,旧fragment生命周期执行 onPause ->onStop ->onDestroyView ->onDestroy->onDetach，新fragment走正常生命周期
+
+如果当前 Activity 同一个布局id存在了Fragment，add传递的Fragment实例和已经存在的Fragment实例不一致，旧Fragment生命周期无变化，新Fragment走正常生命周期。
+```
+
+30 单选题：调用后可以使线程从新建状态进入就绪状态的方法是a
+```
+start()
+onCreate()
+run()
+create()
+```
+
+31 单选题:onSavelnstanceState()的调用时机是(d)
+```
+在onstop()之后
+在onDestroy()之前
+在onDestroy()之后
+在onStop()之前
+```
+
+32 单选题:分析以下代码
+```html
+<canvas id="myCanvas" width="100" height="100"></canvas>
+<script>
+var canvas= document.getElementByld("myCanvas");
+var ctx= canvas.getContext("2d");
+ctx.beginPath();
+ctx.fillStyle = "red";
+ctx.strokeStyle="green";
+ctx.fillRect(0,0, canvas.width, canvas.height);
+ctx.stroke();
+</script>
+下列说法正确的是a
+代码是一个绿色边框，红色背景的矩形图
+代码是一个红色边框的矩形图
+代码是一个绿色边框矩形图
+代码是一个红色实心的矩形图
+```
+
+33 单选题:下列JavaScript对象中，(b)可以被web worker访问
+```
+Window
+Location
+Document
+Parent
+```
+
+34 单选题:存在以下xml文件，使用Node.getChildNodes()获取到元素的个数为()
+```
+<?xml version="1.0"encoding="utf-8" ?>
+<class>
+    <student>
+        <firstname>cxx1</firstname>
+        <lastname>Bob1</lastname>
+        <nickname>stars1</nickname>
+        <marks>85</marks>
+    </student>
+</class>
+```
+
+35 单选题:在 JDK9 开始，输入流的API中新增了 transferTo0 方法，下面选项中使用正确的是(c)
+```java
+try {
+    InputStream inputStream = new FilelnputStream("c:/src.txt");
+    File file = new File("d:/dest.txt");
+    inputStream.transferTo(file);
+} catch (Exception e) {
+    throw new RuntimeException(e);
+}
+
+try {
+    OutputStream outputStream = new QutputStream("c:/src.txt");
+    File file = new File("d:/dest.txt");
+    outputStream.transferTo(file);
+}catch(Exception e){
+    throw new RuntimeException(e);
+}
+
+try {
+    InputStream inputStream = new FilelnputStream("c:/src.txt");
+    OutputStream outputStream = new FileGtputStream("d:/dest.txt");
+    inputStream.transferTo(outputStream);
+} catch (Exception e){
+    throw new RuntimeException(e);
+}
+
+try {
+    InputStream inputStream = new FilelnputStream("c:/src.txt");
+    OutputStream outputStream = new FileQutputStream("d:/dest.txt");
+    outputStream.transferlo(inputStream);
+} catch(Exception e){
+    throw new RuntimeException(e);
+}
+```
+
+36 单选题:使用甲、乙两种方法求解同一问题，2乙方法的消耗时间明显低于甲方法，则甲、乙不可能是c
+```
+甲:递归法 乙:动态规划法
+甲:暴力枚举法 乙:回溯法
+甲:动态规划法 乙:回溯法
+甲:暴力枚举法 乙:动态规划法
+```
+
+37 单选题:在串的简单模式匹配中，当模式串位j与目标串位i比较时，两字符不相等，则i的位移方式是(b)
+```
+i=j+1
+i=i-j+1
+i++
+i=j-i+1
+```
+
+38 单选题 KMP算法中，next数组的含义是(b)
+```
+模式串中每个字符的最长公共前后缀的长度
+模式串中每个字符的最长公共前缀的长度
+目标串中每个字符的最长公共前缀的长度
+目标串中每个字符的最长公共前后缀的长
+```
+
+39 单选题：快速排序算法是基于(d)策略的一种算法
+```
+动态规划
+递归
+贪心
+分治
+```
+
+40 单选题:在线性规划中，目标函数的要求是(c)
+```
+必须是凸函数
+必须是单调函数
+必须是线性函数
+可以是任意函数
+```
+
+41 算法：中心位置
+```python
+题目描述：你有一个长度为m的正整数序列，下标从1开始。
+对于这个序列，你需要统计整个序列的数字种类数，记种类数为m。
+之后对于每一种数字x，记其出现次数为Cx，
+设函数f(x)表示在序列中从左往右数[Cx/2]个数字x对应的下标([y]表示对y向上取整，例如[0.5]=1，[2]=2)。
+最后你需要将所有f(x)按从小到大的顺序输出出来。
+
+输入描述:
+第一行一个正整数n(1≤n≤10^5)，表示序列长度。
+第二行n个由空格隔开的正整数a1,a2…an,(1≤a,≤10^4)，表示该序列。
+输出描述:
+第一行输出一个正整数m，表示序列中的数字种类数。
+第二行输出m个由空格隔开的正整数，分别表示按从小到大的顺序排序之后的函数值。末尾不要输出多余空格。
+
+样例输入
+9
+3 4 5 5 3 4 4 5 3
+样例输出
+3
+4 5 6
+提示
+一共有 3,4,5 三种数字，其中f(3)=5，f(4)=6，f(5)=4，排序后就是 4,5,6。
+
+class Solution:
+    def center(self, n, nums):
+        count={}
+        for i,num in enumerate(nums):
+            if num not in count:
+                count[num]=[]
+            count[num].append(i+1)
+        res=[]
+        for num in sorted(count.keys()):
+            mid_index=(len(count[num])+1)//2
+            res.append(count[num][mid_index-1])
+        res=sorted(res)
+        return len(count),res
+def main():
+    n=input()
+    nums=list(map(int,input().split()))
+    s=Solution()
+    m,res=s.center(n,nums)
+    print(m)
+    print(*res)
+main()
+```
+
+42 算法：加密算法
+```python
+小X和小Y正在进行加密算法有关的研究
+小X提出了一种简单的加密算法:对于一个只包含小写英文字母的字符串，将'a'替换成1,'b'替换成2...'z'替换成26，比如一个字符串'abcyz',加密后变成'1232526'。
+但是小Y觉得对于一个加密后的数字串可能对应很多原串:比如'1232526'可能表示’abcyz’,也可能表示'abcbebf',也可能表示'lcyz'...
+为了说服小X，小Y希望能计算出某个加密后的数字串可能对应的原串个数，由于答案可能很大，请输出答案对1000000007(10^9+7)取模后的结果。
+
+输入描述:
+第一行一个正整数n,表示加密后的数字串的长度。
+接下来一行字符串长度为n,表示加密后的数字串。
+对于所有数据，n<=50000，保证输入字符串所有字符是’1’到’9’的数字
+
+输出描述:
+输出一个正整数表示可能的原串个数
+
+样例输入:
+6
+114514
+样例输出:
+6
+提示
+分别是'aadead','kdead','kden','aaden','anead','anen'六种可能的原串
+
+class Solution:
+    def encrypt(self, n, s):
+        mod=1000000007
+        dp=[0]*(n+1)
+        dp[0]=1
+        dp[1]=1
+        for i in range(2,n+1):
+            if s[i-1]=='0':
+                if s[i-2]=='2' or s[i-2]=='0':
+                    dp[i]=dp[i-2]
+                else:
+                    return 0
+            else:
+                if s[i-2]=='1' or (s[i-2]=='2' and s[i-1]<='6'):
+                    dp[i]=(dp[i]+dp[i-2])%mod
+                else:
+                    dp[i]=dp[i-1]
+        return dp[n]
+
+def main():
+    n=int(input())
+    s=input()
+    solution=Solution()
+    res=solution.encrypt(n,s)
+    print(res)
+main()
+```
+
 ## 小米测试
+
+### 拉票
+
+```
+题目描述:
+小明正在参加一次选举。这次选举一共有n个人参与投票，每个人都最多投1票目必须投1 票。
+每一个人都隶属于且仅隶属于一个阵营，第i个人隶屈的阵营编号为a。
+小明隶厘的阵营编号为x，所有隶厘于该阵营的人(允许没有人屈于该阵营的情况出现)都一定会投票给小明，其他阵营的人都不会主动投票给小明。
+小明自己不参与投票，这 n个人当中也不包含小明。
+在最终投票前，小明决定再游说 1个阵营投票给自己，如果小明游说成功，则隶属于被游说阵营的所有人都会投票给小明。
+小明会选择1个阵营进行游说，使得最后获得的总票数尽可能多。
+如果在小明游说前这n 个人已经全部隶属于小明所在的阵营,则小明不会展开游说。
+假设小明游说一定成功，则小明在最终投票中最多可以获得多少票?
+
+输入描述
+输入第一行包含两个墪数n(1≤n≤10^5)和x(1≤x≤n)，分别表示参与投票的总人数和小明隶属的阵营编号。
+输入第二行包含n个墪数，其中第i个整数ai(1≤ai≤n) 表示了第i个人隶属的阵营编号
+
+输出描述
+输出一行，一个整数，表示小明在最终投票中最多可以获得的票数。
+
+样例揄入
+6 2
+1 2 2 2 3 3
+
+样例输出
+5
+小明隶属于编号为2的阵营，获得3票;小明选择游说编号为3的阵营，再获得2票，一共获得5票
+```
+```python
+class Solution:
+    def vote(self, n, x, a):
+        count = [0] * (n + 1)
+        for i in a:
+            count[i] += 1
+        res = count[x]
+        for i in range(1, n + 1):
+            if i != x:
+                if count[i]>0:
+                    res += 1
+        return res
+def main():
+    n, x = map(int, input().split())
+    a = list(map(int, input().split()))
+    solution = Solution()
+    res = solution.vote(n, x, a)
+    print(res)
+main()
+```
+
+### 字符转换
+```
+题目描述:
+小李天生偏爱一些字符，对于一个字符串，他总是想把字符串中的字符变成他偏爱的那些字符。
+如果字符串中某个字符不是他所偏爱的字符，称为非偏爱字符，
+那么他会将该非偏爱字符替换为字符串中距离该字符最近的一个偏爱的字符。
+这里的距离定义即为字符在字符串中的对应下标之差的绝对值。
+如果有不止一个偏爱的字符距离非偏爱字符最近，
+那么小李会选择最左边的那个偏爱字符来替换该非偏爱字符，这样就保证了替换后的字符事是唯一的。小李的所有替换操作是同时进行的。
+假定小李有m个偏爱的字符，依次为c1,c2...cm,当小李看到一个长度为n的字符串s时，请你输出小李在进行全部替换撬作后形成的字符串。
+
+输入描述
+第一行输入两个正整数n，m。
+接下来一行输入m个字符c1,c2...cm，每两个字符之间用空格隔开，表示小李偏爱的字符.
+接下来一行输入一个字符串s。
+1≤n≤100000，1≤m≤26，保证题目中所有的字符均为大写字符，小李偏的字符互不相同，且偏爱字符至少出现一次。
+
+输出描述
+输出一行字符串，表示小李将给定的字符串s替换后形成的字符串。
+
+样例输入
+12 4
+Z G B A
+ZQWEGRTBYAAI
+羊例输出
+ZZZGGGBBBAAA
+公
+字符Q为非偏爱字符，且偏爱字符z距离它最近，所以营换成Z:同理E距离G最近，替换成G:对于字符w，偏爱字符z和G与其距离相同，所以替换为左边的Z;
+对于字符I，右边没有偏爱字符，左边第一个偏爱字符是A，所以替换成字符A.
+同一个傧爱字符可能会在字符串中出现多次。
+```
+
+```python
+class Solution:
+    def replce(self, n, m, c, s):
+        res=[]
+        path=[]
+        self.back(n, m, c, s, 0, path, res)
+        return res[0]
+    def back(self, n, m, c, s, index, path, res):
+        for i in range(n):
+            if s[i] not in c:
+                left=i
+                right=i
+                while left>=0 and s[left] not in c:
+                    left-=1
+                while right<n and s[right] not in c:
+                    right+=1
+                if left<0:
+                    path.append(s[right])
+                elif right==n:
+                    path.append(s[left])
+                else:
+                    if abs(i-left)<=abs(i-right):
+                        path.append(s[left])
+                    else:
+                        path.append(s[right])
+            else:
+                path.append(s[i])
+        res.append(''.join(path))
+```
 
 ## 维谛测试
 
+纯硬件电路，不写此栏
+
 ## 美团测开
 
+![](https://pic.xhcheats.cn/assets/2024/04/03/231831.png)
+
+![](https://pic.xhcheats.cn/assets/2024/04/03/231831_1.png)
+
+![](https://pic.xhcheats.cn/assets/2024/04/03/231831_2.png)
+
+
 ## 东软测试
+
+![](https://pic.xhcheats.cn/assets/2024/04/03/230405_1.png)
+
+![](https://pic.xhcheats.cn/assets/2024/04/03/230405_2.png)
+
+![](https://pic.xhcheats.cn/assets/2024/04/03/230405_3.png)
+
+![](https://pic.xhcheats.cn/assets/2024/04/03/230405_4.png)
+
+![](https://pic.xhcheats.cn/assets/2024/04/03/230405_5.png)
+
+![](https://pic.xhcheats.cn/assets/2024/04/03/230405_6.png)
+
+![](https://pic.xhcheats.cn/assets/2024/04/03/230405_7.png)
+
+![](https://pic.xhcheats.cn/assets/2024/04/03/230405_8.png)
+
+![](https://pic.xhcheats.cn/assets/2024/04/03/230404.png)
+
+![](https://pic.xhcheats.cn/assets/2024/04/03/230404_1.png)
+
+![](https://pic.xhcheats.cn/assets/2024/04/03/230404_2.png)
+
+![](https://pic.xhcheats.cn/assets/2024/04/03/230404_3.png)
+
+![](https://pic.xhcheats.cn/assets/2024/04/03/230404_4.png)
+
+![](https://pic.xhcheats.cn/assets/2024/04/03/230404_5.png)
+
+![](https://pic.xhcheats.cn/assets/2024/04/03/230405.png)
+
 
 ## 吉比特测试
 
