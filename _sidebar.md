@@ -82,34 +82,7 @@
   * [6-7 TIM编码器接口](stm32/17timcoderintro.md)
   * [6-8 编码接口测速示例](stm32/18timgetspeed.md)
   * [7-1 ADC模数转换器]
-  * [7-2 AD单通道&AD多通道]
-  * [8-1 DMA直接存储器存取]
-  * [8-2 DMA数据转运&DMA+AD多通道]
-  * [9-1 USART串口协议]
-  * [9-2 USART串口外设]
-  * [9-3 串口发送&串口发送+接收]
-  * [9-4 USART串口数据包]
-  * [9-5 串口收发HEX数据包]
-  * [9-6 FlyMcu串口下载&stlink]
-  * [10-1 I2C通信协议]
-  * [10-2 MPU6050简介]
-  * [10-3 软件I2C读写MPU6050]
-  * [10-4 I2C通信外设]
-  * [10-5 硬件I2C读写MPU6050]
-  * [11-1 SPI通信协议]
-  * [11-2 W25Q64简介]
-  * [11-3 软件SPI读写W25Q64]
-  * [11-4 SPI通信外设]
-  * [11-5 硬件SPI读写W25Q64]
-  * [12-1 UNIX时间戳]
-  * [12-2 BKP备份寄存器&RTC实时时钟]
-  * [12-3 读写备份寄存器&实时时钟]
-  * [13-1 PWR电源控制]
-  * [13-2 修改主频&睡眠|停止|待机模式]
-  * [14-1 WDG看门狗]
-  * [14-2 独立&窗口看门狗]
-  * [15-1 FLASH闪存]
-  * [15-2 读写内部FLASH&读取芯片ID]
+  * [7-2 AD单通道&AD多通道示例]
 
 * XV6 book(MIT-6.S801)
   * [0.目录](OS/xv6-riscv-book/Chapter-0.md)
@@ -178,7 +151,7 @@
   * [win安装SQL2019](windows/sql.md)
   * [idea+mysql配置](windows/idea.md)
   * [无法访问GitHub解决](public/changehost.md)
-  * [笔试](OS/algorithm/bs.md)
+  * [笔试](public/bs.md)
   * [面试记录](public/ms.md)
 
 * 数据结构与算法(Python)
