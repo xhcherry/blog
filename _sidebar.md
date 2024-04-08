@@ -187,6 +187,7 @@
     * [磁盘调度算法](OS/algorithm/Disk_scheduling.md)
 
 * public
+  * [如何学习编程语言](public/learn.md)
   * [github fork与upstream](public/upstream.md)
   * [git配置与分支和源同步](public/gitfork.md)
   * [docsify配置](public/docsify.md)
