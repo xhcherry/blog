@@ -27,7 +27,6 @@
     * [6.接口测试](software/3functest/day6.md)
     * [7.接口测试](software/3functest/day7.md)
     * [8.接口测试](software/3functest/day8.md)
-  * python基础
   * 接口测试
   * 小程序项目
   * 性能测试
@@ -62,6 +61,21 @@
     * [机房预约系统](CPP/heima/七/机房预约系统.md)
   * [C/C++ Note](CPP/note.md)
 
+* Python
+  * 1.python基础
+  * 2.数据类型
+  * 3.数据类型和函数
+  * 4.函数
+  * 5.函数进阶
+  * 6.模块
+  * 7.模块和面向对象
+  * 8.模块和面向对象
+  * 9.模块和面向对象
+  * 10.前端开发
+  * 11.前端开发
+  * 12.前端开发
+  * 13.MySQL
+
 * STM32(C8T6)
   * [1-1 STM32介绍、软件安装](stm32/1intro.md)
   * [2-1 标准库新建工程](stm32/2newproject.md)
@@ -83,18 +97,6 @@
   * [6-8 编码接口测速示例](stm32/18timgetspeed.md)
   * [7-1 ADC模数转换器]
   * [7-2 AD单通道&AD多通道示例]
-
-* XV6 book(MIT-6.S801)
-  * [0.目录](OS/xv6-riscv-book/Chapter-0.md)
-  * [1.操作系统接口](OS/xv6-riscv-book/Chapter-1.md)
-  * [2.操作系统组织](OS/xv6-riscv-book/Chapter-2.md)
-  * [3.页表](OS/xv6-riscv-book/Chapter-3.md)
-  * [4.陷阱和系统调用](OS/xv6-riscv-book/Chapter-4.md)
-  * [5.中断和设备驱动](OS/xv6-riscv-book/Chapter-5.md)
-  * [6.锁](OS/xv6-riscv-book/Chapter-6.md)
-  * [7.调度](OS/xv6-riscv-book/Chapter-7.md)
-  * [8.文件系统](OS/xv6-riscv-book/Chapter-8.md)
-  * [9.并发](OS/xv6-riscv-book/Chapter-9.md)
 
 * Linux
   * Linux网络编程
@@ -132,61 +134,68 @@
     * [编译过程与编译选项](linux/GNU_Make/10Compile.md)
     * [静态库的编译与链接](linux/GNU_Make/11StaticLibrary.md)
     * [共享库/动态库的编译与链接](linux/GNU_Make/12SharedLibrary.md)
+  * XV6 book(MIT-6.S801)
+    * [0.目录](linux/xv6-riscv-book/Chapter-0.md)
+    * [1.操作系统接口](linux/xv6-riscv-book/Chapter-1.md)
+    * [2.操作系统组织](linux/xv6-riscv-book/Chapter-2.md)
+    * [3.页表](linux/xv6-riscv-book/Chapter-3.md)
+    * [4.陷阱和系统调用](linux/xv6-riscv-book/Chapter-4.md)
+    * [5.中断和设备驱动](linux/xv6-riscv-book/Chapter-5.md)
+    * [6.锁](linux/xv6-riscv-book/Chapter-6.md)
+    * [7.调度](linux/xv6-riscv-book/Chapter-7.md)
+    * [8.文件系统](linux/xv6-riscv-book/Chapter-8.md)
+    * [9.并发](linux/xv6-riscv-book/Chapter-9.md)
   * VMware
     * [windows安装VMware](linux/VMware/VMware.md)
-    * [VMware安装centos 7](linux/VMware/centos.md)
+    * [VMware安装centpython 7](linux/VMware/centpython.md)
     * [VMware安装Ubuntu22.04.1](linux/VMware/Ubuntu.md)
-    * [VMware安装macOS Ventura 13](linux/VMware/Ventura13.md)
+    * [VMware安装macpython Ventura 13](linux/VMware/Ventura13.md)
     * [VMware安装Red Hat](linux/VMware/redhat.md)
   * [Linux Note](linux/VMware/linuxnote.md)
 
 * Windows
   * [下载压缩包解压教程](windows/jieya.md)
   * [键盘键值表](windows/jianpankey.md)
-  * [Microsoft365激活](windows/office.md)
+  * [Micrpythonoft365激活](windows/office.md)
   * [win修改中文用户名](windows/yonghuming.md)
   * [win关闭杀毒保护](windows/guanshadu.md)
   * [win安装keil 51](windows/keil.md)
   * [win安装proteus7.6](windows/proteus.md)
   * [win安装SQL2019](windows/sql.md)
   * [idea+mysql配置](windows/idea.md)
-  * [无法访问GitHub解决](public/changehost.md)
+  * [无法访问GitHub解决](public/changehpythont.md)
   * [笔试](public/bs.md)
   * [面试记录](public/ms.md)
 
 * 数据结构与算法(Python)
   * 代码随想录训练营
-    * [day1 数组](OS/algorithm/carl/day1.md)
-    * [day2 数组](OS/algorithm/carl/day2.md)
-    * [day3 链表](OS/algorithm/carl/day3.md)
-    * [day4 链表](OS/algorithm/carl/day4.md)
-    * [day6 哈希表](OS/algorithm/carl/day6.md)
-    * [day7 哈希表](OS/algorithm/carl/day7.md)
-    * [day8 字符串](OS/algorithm/carl/day8.md)
-    * [day9 字符串](OS/algorithm/carl/day9.md)
-    * [day10 栈与队列](OS/algorithm/carl/day10.md)
-    * [day11 栈与队列](OS/algorithm/carl/day11.md)
-    * [day13 栈与队列](OS/algorithm/carl/day13.md)
-    * [day14 二叉树](OS/algorithm/carl/day14.md)
-    * [day15 二叉树](OS/algorithm/carl/day15.md)
-    * [day16 二叉树](OS/algorithm/carl/day16.md)
-    * [day17 二叉树](OS/algorithm/carl/day17.md)
-    * [day18 二叉树](OS/algorithm/carl/day18.md)
-    * [day19 二叉树](OS/algorithm/carl/day19.md)
-    * [day20 二叉树](OS/algorithm/carl/day20.md)
-    * [day22 二叉树](OS/algorithm/carl/day22.md)
-    * [day23 二叉树](OS/algorithm/carl/day23.md)
-    * [day24 回溯算法](OS/algorithm/carl/day24.md)
-    * [day25 回溯算法](OS/algorithm/carl/day25.md)
-    * [day26 回溯算法](OS/algorithm/carl/day26.md)
-    * [day27 回溯算法](OS/algorithm/carl/day27.md)
-  * [python数据结构](OS/algorithm/pythonbasic.md)
-  * [python常用算法](OS/algorithm/pythonalgorithm.md)
-  * [python八大好用的内置函数](OS/algorithm/pythonnote.md)
-  * 操作系统算法
-    * [银行家算法](OS/algorithm/banker.md)
-    * [页面置换算法](OS/algorithm/pagedisplace.md)
-    * [磁盘调度算法](OS/algorithm/Disk_scheduling.md)
+    * [day1 数组](python/algorithm/carl/day1.md)
+    * [day2 数组](python/algorithm/carl/day2.md)
+    * [day3 链表](python/algorithm/carl/day3.md)
+    * [day4 链表](python/algorithm/carl/day4.md)
+    * [day6 哈希表](python/algorithm/carl/day6.md)
+    * [day7 哈希表](python/algorithm/carl/day7.md)
+    * [day8 字符串](python/algorithm/carl/day8.md)
+    * [day9 字符串](python/algorithm/carl/day9.md)
+    * [day10 栈与队列](python/algorithm/carl/day10.md)
+    * [day11 栈与队列](python/algorithm/carl/day11.md)
+    * [day13 栈与队列](python/algorithm/carl/day13.md)
+    * [day14 二叉树](python/algorithm/carl/day14.md)
+    * [day15 二叉树](python/algorithm/carl/day15.md)
+    * [day16 二叉树](python/algorithm/carl/day16.md)
+    * [day17 二叉树](python/algorithm/carl/day17.md)
+    * [day18 二叉树](python/algorithm/carl/day18.md)
+    * [day19 二叉树](python/algorithm/carl/day19.md)
+    * [day20 二叉树](python/algorithm/carl/day20.md)
+    * [day22 二叉树](python/algorithm/carl/day22.md)
+    * [day23 二叉树](python/algorithm/carl/day23.md)
+    * [day24 回溯算法](python/algorithm/carl/day24.md)
+    * [day25 回溯算法](python/algorithm/carl/day25.md)
+    * [day26 回溯算法](python/algorithm/carl/day26.md)
+    * [day27 回溯算法](python/algorithm/carl/day27.md)
+  * [python数据结构](python/algorithm/pythonbasic.md)
+  * [python常用算法](python/algorithm/pythonalgorithm.md)
+  * [python好用的内置函数](python/algorithm/pythonnote.md)
 
 * public
   * [如何学习编程语言](public/learn.md)
