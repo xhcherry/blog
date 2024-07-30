@@ -3,6 +3,80 @@
 <img src=https://pic.xhcheats.cn/assets/2024/02/16/143641.png />
 </div>
 
+
+* [🎮 主页](README.md)
+  * [🔥 菜单状态](misc/state.md)
+  * [🌐 菜单官网](misc/website.md)
+* [♥ 菜单推荐](recommend/README.md)
+  * [总体推荐](recommend/tuijian.md)
+  * [GTA5](recommend/gta5/README.md)
+    * [2T](recommend/gta5/2t.md)
+    * [Stand](recommend/gta5/stand.md)
+    * [Frontier-开拓者](recommend/gta5/frontier.md)
+    * [Cherax-樱桃](recommend/gta5/cherax.md)
+    * [North-北域](recommend/gta5/north.md)
+    * [Soviet](recommend/gta5/soviet.md)
+    * [PhantomX-幻影](recommend/gta5/phantom-X.md)
+    * [Rebound-回弹](recommend/gta5/rebound.md)
+    * [Midnight-午夜](recommend/gta5/midnight.md)
+    * [Nightfall-黄昏](recommend/gta5/nightfall.md)
+    * [X-Force](recommend/gta5/x-force.md)
+    * [SasaVN](recommend/gta5/sasavn.md)
+    * [OXcheats](recommend/gta5/oxcheats.md)
+    * [表演者/暗星/xipro](recommend/gta5/Chinacheats.md)
+  * [RDR2](recommend/rdr2/README.md)
+    * [Exodus](recommend/rdr2/exodus.md)
+    * [Oregon](recommend/rdr2/oregon.md)
+    * [Prime-至尊](recommend/rdr2/prime.md)
+    * [OXcheats](recommend/rdr2/oxcheats.md)
+  * [buy | 点击购买](https://xhaomenu.xyz/)
+* 🔨 解压教程/辅助出现错误必看
+  * [下载辅助压缩包解压教程](misc/jieya.md)
+  * [注入失败/游戏闪退](misc/bikan.md)
+* [❌ 解封教程](misc/jiefeng.md)
+
+* GTA5教程
+  * [2Take1](GTA5/2t.md)
+  * [Stand](GTA5/stand.md)
+  * [Frontier-开拓者](GTA5/frontier.md)
+  * [Cherax-樱桃](GTA5/cherax.md)
+  * [North-北域](GTA5/north.md)
+  * [Soviet](GTA5/soviet.md)
+  * [PhantomX-幻影](GTA5/phantomx.md)
+  * [Rebound-回弹](GTA5/rebound.md)
+  * [Midnight-午夜](GTA5/midnight.md)
+  * [Nigthfall-黄昏](GTA5/nightfull.md)
+  * [XiPro](GTA5/xipro.md)
+  * [Darkstar-暗星](GTA5/darkstar.md)
+  * [X-Force](GTA5/xforce.md)
+  * [SasaVN](GTA5/sasavn.md)
+  * [0Xcheats](GTA5/0x.md)
+  * [表演者](GTA5/biaoyanzhe.md)
+  * [Fragment-碎片](GTA5/fragment.md)
+  * [Disturbed-扰乱](GTA5/disturbed.md)
+  * [破解版免费版辅助教程](GTA5/pojieban/README.md)
+    * [空灵破解版](GTA5/pojieban/ethereal.md)
+    * [darkstar破解版](GTA5/pojieban/darkstar.md)
+    * [xipro破解版](GTA5/pojieban/xipro.md)
+    * [sasavn破解版](GTA5/pojieban/sasavn.md)
+    * [yim免费](GTA5/pojieban/yimmenu.md)
+
+* RDR2教程
+  * [Exodus](RDR2/exodus.md)
+  * [Oregon](RDR2/oregon.md)
+  * [Prime-至尊](RDR2/prime.md)
+  * [0Xcheats](RDR2/0x.md)
+
+* 其他
+  * [键盘键值表](misc/键盘.md)
+  * [加速器时长白嫖](misc/jiasuqi.md)
+  * [Microsoft office激活教程](misc/office.md)
+  * [windows修改中文用户名](misc/yonghuming.md)
+  * [windows关闭杀毒保护](misc/guanshadu.md)
+
+
+
+
 * [**Wiki主页**](README.md)
 * 软件测试
   * 软件测试基础

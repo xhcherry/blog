@@ -2,17 +2,14 @@
 
 ### 导航
 
+> **建议CTRL+D收藏本网址，建议电脑浏览**
+
 电脑端：直接在左边栏选择内容查看或左上角输入关键字搜索
 
 移动端：点击左下角三条横扛查看列表栏目或左上角输入关键字搜索
 
-Rockstar游戏mod专栏：[docs.xhcheats.cn/#](https://docs.xhcheats.cn/#) 
+> **购买地址：</mark>[**https://xhaomenu.xyz/**</mark>](https://xhaomenu.xyz/)**
 
-相关mod购买：[https://xhaomenu.xyz/](https://xhaomenu.xyz/)
-
-本站备用(建议收藏)：[wiki.xhcheats.cn/#/](https://wiki.xhcheats.cn/#)
-
-图床：[pic.xhcheats.cn](https://pic.xhcheats.cn)
 
 ### 联系我
 
@@ -22,4 +19,9 @@ discord：xherry_x
 
 GitHub：[xhcherry](https://github.com/xhcherry)
 
-> 本站创于2021年10月，用于记录C/C++,Linux网络编程,STM32等嵌入式开发学习笔记，游戏mod的制作与使用教程见[Rockstar游戏mod专栏](https://docs.xhcheats.cn/#)
+
+> [点此查看菜单状态](wiki/state.md)
+ 
+> [点此查看菜单官网](wiki/website.md)
+
+> 始于2021年11月，主要用于记录游戏mod的制作与使用教程相关的文档
