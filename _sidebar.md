@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://xhcheats.cn/#/">
+<a href="https://docs.xxmod.me">
 <img src=https://pic.xhcheats.cn/assets/2024/02/16/143641.png />
 </div>
 
@@ -20,7 +20,7 @@
     * [Oregon](recommend/rdr2/oregon.md)
     * [Prime-至尊](recommend/rdr2/prime.md)
     * [OXcheats](recommend/rdr2/oxcheats.md)
-  * [buy | 点击购买](https://xhaomenu.xyz/)
+  * [buy | 点击购买](https://)
 * 🔨 解压教程/辅助出现错误必看
   * [下载辅助压缩包解压教程](misc/jieya.md)
   * [注入失败/游戏闪退](misc/bikan.md)

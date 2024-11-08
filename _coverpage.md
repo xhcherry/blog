@@ -13,6 +13,6 @@
     | 🚴‍♂️ 本站总访客数：<span id="busuanzi_value_site_uv"></span> 人
 </span>
 
-[发卡网](https://xhaomenu.xyz/) [进入本站主页](README.md)
+[发卡网](https://baidu.com/) [进入本站主页](README.md)
 
 

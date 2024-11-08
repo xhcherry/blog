@@ -6,4 +6,4 @@
     
 * ## [RDR2](recommend/rdr2/README.md)
    
-* ## [buy | 点击购买辅助](https://xhaomenu.xyz/)
+* ## [buy | 点击购买辅助](https://)

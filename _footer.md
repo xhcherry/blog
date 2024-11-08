@@ -1,1 +1,1 @@
-Copyright © 2021 [Xherry](https://github.com/xhcherry) ：[皖ICP备2021015902号-3](https://beian.miit.gov.cn/)
+Copyright © 2021 [Xherry](https://github.com/xhcherry)

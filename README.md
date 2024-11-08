@@ -8,12 +8,10 @@
 
 移动端：点击左下角三条横扛查看列表栏目或左上角输入关键字搜索
 
-> **购买地址：</mark>[**https://xhaomenu.xyz/**</mark>](https://xhaomenu.xyz/)**
+> **购买地址：</mark>[**  **</mark>](  )**
 
 
 ### 联系我
-
-QQ：2036301905
 
 discord：xherry_x
 

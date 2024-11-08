@@ -1,6 +1,6 @@
 # 总体推荐
 
-购买地址：[https://xhaomenu.xyz/](https://xhaomenu.xyz/)
+购买地址：[https://](https://)
 
 切记在你考虑某款辅助的请一定一定要看清你的系统能不能用，你是否是网吧用户\
 预算足够选2t，lua推荐travellerlua\
