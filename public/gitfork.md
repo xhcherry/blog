@@ -4,7 +4,7 @@
 
 ## Lua仓库配置git环境
 
-[点此下载git安装环境软件](https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe)
+[点此下载git安装环境软件](https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.2/Git-2.47.0.2-64-bit.exe)
 
 下载不动的就翻墙，建议使用steam++加速GitHub即可 [下载steam++(Watt Toolkit)](https://steampp.net/download)
 

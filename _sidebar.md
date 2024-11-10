@@ -1,6 +1,6 @@
 <div align="center">
 <a href="https://docs.xxmod.me">
-<img src=https://pic.xhcheats.cn/assets/2024/02/16/143641.png />
+<img src=assets/logo.jpg />
 </div>
 
 
