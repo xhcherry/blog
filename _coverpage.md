@@ -1,4 +1,4 @@
-![](assets/logo.jpg)
+![](assets/logo.png)
 
 # [**Xherry WIKI**](?id=Xherry)
 
