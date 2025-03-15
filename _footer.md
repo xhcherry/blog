@@ -1,1 +1,0 @@
-Copyright © 2021 [Xherry](https://github.com/xhcherry)

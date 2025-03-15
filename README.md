@@ -15,9 +15,6 @@
 
 discord：xherry_x
 
-GitHub：[xhcherry](https://github.com/xhcherry)
-
-
 > [点此查看菜单状态](wiki/state.md)
  
 > [点此查看菜单官网](wiki/website.md)
