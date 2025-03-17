@@ -1,6 +1,6 @@
 <div align="center">
 <a href="https://docs.xxmod.cn">
-<img src=assets/logo.png />
+<img src=assets/xxlogo.png />
 </div>
 
 * [🎮 主页](README.md)
