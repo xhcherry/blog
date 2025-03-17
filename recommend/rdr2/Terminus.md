@@ -1,4 +1,4 @@
-# Exodus
+# Terminus
 
 **支持win10/11**
 

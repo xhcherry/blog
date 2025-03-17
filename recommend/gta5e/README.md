@@ -1,5 +1,5 @@
-# RDR2
+# GTA5增强版
 
 [buy | 点击购买辅助](https://xxmod.cn)
-  
-[Terminus](Terminus.md)
+
+[xi rush](xirush.md)
